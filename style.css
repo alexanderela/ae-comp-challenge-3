@@ -1,0 +1,78 @@
+/*General Layout*/
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+.main-grid-area {
+	display: grid;
+	align-items: stretch;
+	grid-template-areas:
+	"nav-main nav-header nav-header nav-header nav-header nav-header nav-header"
+	"nav-main main main main main main main"
+	"nav-main main main main main main main"
+	"nav-main main main main main main main"
+	"nav-main main main main main main main"
+	"nav-main main main main main main main";
+	grid-template-columns: repeat(7, 1fr);
+	grid-template-rows: repeat(6, 1fr);
+	height: 100%;
+}
+
+h1 {
+	font-size: 5rem;
+}
+
+/*Main Nav*/
+.main-nav {
+	background-color: #31475A;
+	height: 100%;
+	grid-area: nav-main;
+}
+
+/*Main Nav Icons*/
+
+
+/*Header Navigation*/
+.header-nav {
+	background-color: #FFFFFF;
+	grid-area: nav-header;
+	grid-row: span 1;
+	height: 100%;
+}
+
+
+
+/*Main Content*/
+.main-content {
+	background-color: #A5B6C3;
+	grid-area: main;
+	grid-row: span 5;
+	height: 100%;
+}
+
+
+/*Media Queries*/
+
+@media screen and (max-width: 830px) {
+
+.main-nav {
+	display: none;
+}
+
+
+.main-grid-area {
+	grid-template-areas:
+	"nav-header nav-header nav-header nav-header nav-header nav-header"
+	"nav-header nav-header nav-header nav-header nav-header nav-header"
+	"main main main main main main"
+	"main main main main main main"
+	;
+	grid-template-columns: repeat(6, 1fr);
+}
+
+}
