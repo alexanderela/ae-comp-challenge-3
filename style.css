@@ -385,6 +385,7 @@ h1 {
 
 .table-header-left {
 	border-radius: 3px 0 0 0;
+	padding: 0 0 0 2rem;
 }
 
 .table-header-right {
@@ -408,11 +409,13 @@ h1 {
 }
 
 .tbl-hd {
-	padding: 0 0 0 2rem;
+	margin: 0 0 0 2rem;
+	border-bottom: 1px solid #D8DEE4;	
 }
 
 .tbl-content {
-	padding: 0 2rem 0 0;
+	margin: 0 2rem 0 0;
+	border-bottom: 1px solid #D8DEE4;	
 }
 
 .job-descrip {
@@ -422,9 +425,9 @@ h1 {
 	align-items: flex-start;	
 }
 
-.tble-bord-btm {
+/*.tble-bord-btm {
 	border-bottom: 1px solid #D8DEE4;	
-}
+}*/
 
 /*.test-break-left {
 	padding: 0 0 0 2rem;
