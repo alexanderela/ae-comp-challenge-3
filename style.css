@@ -330,8 +330,8 @@ h1 {
 }
 
 .main-break-button {
-	height: 2rem;
-	width: 2rem;
+	height: 2.25rem;
+	width: 2.25rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -339,7 +339,7 @@ h1 {
 }
 
 .fa-angle-up {
-	font-size: 1rem;	
+	font-size: 0.75rem;	
 /*	position: relative;
 	bottom: 0.3rem;*/
 }
