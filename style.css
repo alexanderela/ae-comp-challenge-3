@@ -358,17 +358,23 @@ h1 {
 
 .table {
 	display: grid;
-	grid-template-columns: 10rem 1fr;
+	grid-template-columns: 13rem 1fr;
 	grid-template-rows: repeat(9, 1fr);
 	background-color: #FFFFFF;
 	height: 48.2rem;
-/*	padding: 2rem;*/
+	padding: 0;
 	margin: 3rem 0 0 3rem;
 	border-radius: 3px;
 }
+/*
+.table-head-content {
 
+}
 
-
+.table-main-content {
+/*	padding: 2rem;*/	
+/*}
+*/
 .table-header {
 	background-color:	#727D93;
 	color: #FFFFFF;
@@ -398,20 +404,39 @@ h1 {
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
+
 }
 
 .tbl-hd {
-	padding: 0 0 0 0;
+	padding: 0 0 0 2rem;
 }
 
-.tbl-entry {
-	padding: 0 0 0 0;
+.tbl-content {
+	padding: 0 2rem 0 0;
 }
 
+.job-descrip {
+	line-height: 1.25rem;
+	/*padding: 1rem 0;*/
+	display: flex;
+	align-items: flex-start;	
+}
 
+.tble-bord-btm {
+	border-bottom: 1px solid #D8DEE4;	
+}
+
+/*.test-break-left {
+	padding: 0 0 0 2rem;
+}
+
+.test-break-left {
+	padding: 0 2rem 0 0;
+}*/
 
 .hiring-lead {
-	width: 4rem;
+	width: 2.5rem;
+	margin: 0 0.75rem 0 0;
 }
 
 
@@ -485,6 +510,8 @@ h2 {
 	overflow: hidden;
 	display: block;
 	padding: 0.85rem 0 0 1rem;
+	color: #727D93;
+	font-weight: 600;
 }
 
 .upload-resume {
