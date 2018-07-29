@@ -232,15 +232,15 @@ h4 {
 	padding: 0.5rem 1rem 0;
 }
 
-.headline-text-block-grey {
+.block-grey {
 	font-weight: 700;
 	font-size: 0.85rem;
 	color: #727D93;
 }
 
-.paragraph-text-grey {
+.p-text-grey {
 	font-weight: 500;
-	font-size: 0.75rem;
+	font-size: 0.85rem;
 	color: #727D93;
 }
 
@@ -354,6 +354,8 @@ h1 {
 	width: 100%;
 }
 
+/*Table*/
+
 .table {
 	display: grid;
 	grid-template-columns: 10rem 1fr;
@@ -365,17 +367,22 @@ h1 {
 	border-radius: 3px;
 }
 
-.table-content {
 
-}
 
-.table-header-row {
-	background-color:	#556072;
+.table-header {
+	background-color:	#727D93;
 	color: #FFFFFF;
-	height: 3rem;
-	border-radius: 3px;
+	/*height: 3rem;*/
 	font-weight: 700;
 	font-size: 0.85rem;
+}
+
+.table-header-left {
+	border-radius: 3px 0 0 0;
+}
+
+.table-header-right {
+	border-radius: 0 3px 0 0;
 }
 
 .button-table-edit {
@@ -387,10 +394,28 @@ h1 {
 	border-radius: 1px;
 }
 
+.tbl-entry {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.tbl-hd {
+	padding: 0 0 0 0;
+}
+
+.tbl-entry {
+	padding: 0 0 0 0;
+}
+
+
 
 .hiring-lead {
 	width: 4rem;
 }
+
+
+/*Social*/
 
 .social {
 	width: 100%;
