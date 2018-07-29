@@ -269,6 +269,9 @@ h1 {
 .social {
 	width: 100%;
 	padding: 0 3rem 3rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;;
 }
 
 .social-button {
@@ -292,6 +295,48 @@ h1 {
 .linkedin {
 	background-color: #377DB7;
 }
+
+h2 {
+	font-weight: 600;
+	color: #556072;
+}
+
+.social-text {
+	font-size: 0.75rem;
+	color: #9AA2AF;
+}
+
+.social-tags-contain {
+	width: 100%;
+	height: 2.5rem;
+	border: none;
+	border-radius: 3px;
+	background-color: #FFFFFF;
+	display: flex;
+	align-items: center;
+}
+
+.social-tags {
+	font-size: 0.75rem;
+	height: 2.5rem;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	display: flex;
+	align-items: center;
+	padding: 0 0 0 0.75rem;
+}
+
+.copy-button {
+	background-color: #68B8BF;
+	width: 20%;
+	height: 3rem;
+	border: none;
+	border-radius: 3px;
+	color: #FFFFFF;
+}
+
+
 
 /*Main Content Icons*/
 
