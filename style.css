@@ -229,6 +229,7 @@ h4 {
 
 .summary-nav-contain {
 	background-color: #FFFFFF;	
+	padding: 0.5rem 1rem 0;
 }
 
 .headline-text-block-grey {
@@ -244,7 +245,8 @@ h4 {
 }
 
 .summary-nav li {
-	padding: 1rem;
+	margin: 0 1rem;
+	padding: 0 0 1rem;
 	border-bottom: 3px solid #FFFFFF;
 	cursor: pointer;
 }
@@ -328,8 +330,8 @@ h1 {
 }
 
 .main-break-button {
-	height: 2rem;
-	width: 2rem;
+	height: 2.25rem;
+	width: 2.25rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -337,9 +339,9 @@ h1 {
 }
 
 .fa-angle-up {
-	font-size: 1rem;	
-	position: relative;
-	bottom: 0.3rem;
+	font-size: 0.75rem;	
+/*	position: relative;
+	bottom: 0.3rem;*/
 }
 
 .main-break-graph {
