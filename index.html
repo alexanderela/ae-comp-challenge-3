@@ -3,54 +3,185 @@
 	<head>
 		<link href="reset.css" rel="stylesheet">
 		<link href="style.css" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,500,600,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700" rel="stylesheet">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Static Comp 3</title>
 	</head>
 	<body>
-		<section class="main-grid-area">
-			<header class="main-nav">
 
-
-				<nav>
-				</nav>
-				<nav>
-				</nav>
+		<section class="sidebar">
+			<header class="sidebar-profile">
+				<img class="profile-img headshot" src="Images/A_Ela.jpg">
+				<p>Newton Barley <i class="fas fa-caret-down"></i></p>
 			</header>
-			<header class="header-nav">
-			</header>
-			<main class="main-content">
-			</main>
+			<hr class="sidebar-break">			
+			<ul class="side-nav sidebar">
+				<li><h4>Main</h4></li>
+				<li><i class="fas fa-home"></i>HOME</li>
+				<li><i class="fas fa-briefcase"></i>JOBS</li>
+				<li><i class="fas fa-file"></i>RESUMES</li>
+				<li><i class="fas fa-clipboard-list"></i>TASKS</li>
+				<li><i class="far fa-calendar-alt"></i>CALENDAR</li>
+			</ul>
+			<hr class="sidebar-break">	
+			<ul class="side-nav sidebar">
+				<li><h4>Admin</h4></li>
+				<li><i class="fas fa-user-friends"></i>USERS</li>
+				<li><i class="fas fa-map-marker-alt"></i>LOCATIONS</li>
+				<li><i class="fas fa-code-branch"></i>WORKFLOWS</li>
+				<li><i class="far fa-newspaper"></i>JOB BOARDS</li>
+				<li><i class="fas fa-project-diagram"></i>SOCIAL</li>
+			</ul>
+			<hr class="sidebar-break">	
+			<ul class="side-nav sidebar">
+				<li><h4>Categories</h4></li>
+				<li><i class="fas fa-check-square"></i></i>Administrative</li>
+				<li><i class="fas fa-square fa-square-blue"></i>Design</li>
+				<li><i class="fas fa-square fa-square-red"></i>Executive</li>
+				<li><i class="fas fa-square fa-square-green"></i>Human Resources</li>
+			</ul>			
 		</section>
+		<main class="main-content">
+			<nav class="header-search">
+				<button class="sidebar-show-hide">
+					<i class="fas fa-caret-left"></i>
+					<i class="fas fa-bars"></i>
+				</button>
+				<div class="main-search">
+					<i class="fas fa-search"></i>
+					<input class="search-input" type="search" placeholder="Search for a job, task or resume">
+				</div>
+				<button class="search-icons">
+					<i class="fas fa-user-plus"></i>
+				</button>		
+				<button class="search-icons">
+					<i class="fas fa-calendar-plus"></i>
+				</button>
+				<button class="search-icons right-search-btn">
+					<i class="fas fa-th"></i>
+				</button>							
+			</nav>
+
+			<section class="summary">
+				<div class="summary-left-contain">
+					<h1>Customer Service Representative</h1>
+					<p class="location">
+						<i class="fas fa-map-marker-alt"></i>Denver, CO
+							<i class="fas fa-circle circle-small"></i>
+							<span class="preview-post">Preview this Post
+							</span>
+					</p>
+				</div>
+				<div class="summary-right-contain">
+					<button class="button-main button-main-text">
+						<i class="fas fa-circle circle-large"></i>OPEN
+					</button>
+					<button class="button-main button-main-icon float">
+						<i class="fas fa-bookmark"></i>
+					</button>		
+					<button class="button-main button-main-icon">
+						<i class="fas fa-pencil-alt"></i>
+					</button>
+					<button class="button-main button-main-icon">
+						<i class="far fa-trash-alt"></i>
+					</button>	
+				</div>
+			</section>
+			<section class="summary-nav-contain">
+				<ul class="summary-nav">
+						<li>SUMMARY</li>
+						<li>APPLICANTS</li>	
+						<li>JOB BOARD</li>
+						<li>INTERVIEWS</li>				
+						<li>ACTIVITY</li>	
+						<li>BROADCAST</li>
+						<li>NOTIFICATIONS</li>								
+				</ul>
+			</section>
+
+			<section class="graphs">	
+				<img class="chart" src="Images/donut_placeholder.png">
+				<img class="chart" src="Images/bar_graph.png">
+				<button class="button-main button-main-text graph-button">TOTALS
+					<i class="fas fa-circle circle-small"></i>Out of 5,231 views
+				</button>
+				<button class="button-main button-main-text graph-button">APPLICANTS/DAY
+				</button>
+			</section>
+
+			<div class="main-break-contain">
+				<hr class="main-break main-break-graph">
+				<button class="button-main button-main-icon">
+					<i class="fas fa-angle-up"></i>
+				</button>
+				<hr class="main-break main-break-graph">
+			</div>
+
+			<section class="main-content-lower">
+				<article class="table">
+					<ul class="table-headers">
+						<li>JOB DESCRIPTION</li>
+						<li>POSITION TITLE</li>						
+						<li>LOCATION</li>
+						<li>EMPLOYMENT TYPE</li>
+						<li>EXPERIENCE</li>
+						<li>STATUS</li>
+						<li>DESCRIPTION</li>
+						<li>HIRING LEAD</li>
+						<li>APPROVED SALARY</li>
+					</ul>
+					<ul class="table-content">
+						<li>
+							<button class="button-table-edit">
+								<i class="fas fa-pencil-alt"></i>EDIT
+							</button>
+						</li>
+						<li>Customer Service Representative</li>
+						<li>Denver, CO</li>
+						<li>Full-time</li>
+						<li>Mid-Level</li>
+						<li>Open</li>
+						<li>The Customer Service Representative is responsible for interacting with and providing quality assistance to all radical customers, responsible for keeping up-to-date on the various product shizzle; helping the bidness reduce customer service wait times while doing a backhand spring and eating a ham sandwich.</li>
+						<li><img src="Images/The_Boss.jpg" class="hiring-lead headshot">Paris Levey</li>
+						<li>$58,000</li>							
+					</ul>
+				</article>
+				<aside class="social">
+					<button class="social-button facebook">
+						<i class="fab fa-facebook-f"></i>
+					Post to Facebook
+					</button>
+					<button class="social-button twitter">
+						<i class="fab fa-twitter"></i>
+					Tweet this Job
+					</button>
+					<button class="social-button linkedin">
+						<i class="fab fa-linkedin"></i>
+					Post to Linkedin
+					</button>
+
+					<i class="fas fa-globe-americas"></i>		
+					<h2>Link to this Job</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer millis neque eget vestibpend.</p>
+					<section></section>
+					<button>Copy</button>
+					<hr class="main-break main-break-social">
+
+					<i class="fas fa-object-group"></i>
+					<h2>Use the Button Widget</h2>
+					<p>This widget embeds the buttons for sharing the job for submitting a resume on your website.</p>
+					<section></section>
+					<button>Copy</button>
+					<hr class="main-break main-break-social">
+
+					<i class="fas fa-paper-plane"></i>
+					<h2>Upload Resumes by Email</h2>
+					<p>You can automatically upload multiple resumes to this job by emailing the address below.</p>
+					<section></section>
+															
+				</aside>
+			</section>
+		</main>
 	</body>
 </html>
-
-
-
-			<nav>
-				<i class="fas fa-home"></i>
-				<i class="fas fa-briefcase"></i>
-				<i class="fas fa-file"></i>
-				<i class="fas fa-clipboard-list"></i>
-				<i class="far fa-calendar-alt"></i>
-			</nav>
-
-			<nav>
-				<i class="fas fa-user-friends"></i>
-				<i class="fas fa-map-marker-alt"></i>
-				<i class="fas fa-code-branch"></i>
-				<i class="far fa-newspaper"></i>
-				<i class="fas fa-project-diagram"></i>
-			</nav>
-
-
-
-
-
-
-
-
-
-
-
