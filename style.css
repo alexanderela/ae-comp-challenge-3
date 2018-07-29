@@ -39,10 +39,16 @@ hr {
 .profile-img {
 	width: 5.5rem;
 	margin: 0 0 1rem 0;
+	cursor: pointer;
+	} 
+
+.profile-img:hover {
+
 	} 
 
 .headshot {
 	border-radius: 50%;
+	cursor: pointer;
 }
 
 .side-nav {
@@ -208,11 +214,13 @@ h4 {
 	color: #9AA2AF;
 	font-size: 0.75rem;
 	font-weight: 600;
+	cursor: pointer;
 }
 
 .preview-post {
 	color: #4BA2F3;
 	font-weight: 600;
+	cursor: pointer;
 }
 
 .summary-nav-contain {
@@ -234,6 +242,7 @@ h4 {
 .summary-nav li {
 	padding: 1rem;
 	border-bottom: 3px solid #FFFFFF;
+	cursor: pointer;
 }
 
 .summary-nav li:hover {
@@ -309,7 +318,7 @@ h1 {
 	grid-template-columns: 10rem 1fr;
 	grid-template-rows: repeat(9, 1fr);
 	background-color: #FFFFFF;
-	height: 40rem;
+	height: 48.2rem;
 /*	padding: 2rem;*/
 }
 
@@ -353,6 +362,9 @@ h1 {
 	border: none;
 	border-radius: 3px;
 	font-size: 0.85rem;
+	display: flex;
+	justify-content: flex-start;
+	padding: 0 0 0 0;
 }
 
 .facebook {
@@ -370,7 +382,7 @@ h1 {
 h2 {
 	font-weight: 600;
 	color: #556072;
-	margin: 0.5rem 0;
+	margin: 1.25rem 0 1rem;
 
 }
 
@@ -389,7 +401,7 @@ h2 {
 	background-color: #FFFFFF;
 	display: flex;
 	align-items: center;
-	margin: 0.5rem 0;
+	margin: 1rem 0 1.5rem;
 }
 
 .social-tags {
@@ -399,9 +411,12 @@ h2 {
 	text-overflow: ellipsis;
 	white-space: nowrap;
 	overflow: hidden;
-	display: flex;
-	align-items: center;
-	padding: 0 0 0 1rem;
+	display: block;
+	padding: 0.85rem 0 0 1rem;
+}
+
+.upload-resume {
+	width: 100%;
 }
 
 .copy-button {
@@ -411,35 +426,38 @@ h2 {
 	border: none;
 	border-radius: 3px;
 	color: #FFFFFF;
+	/*display: none;*/
 }
 
 
 
 /*Main Content Icons*/
+.sidebar-show-hide {
+	color: #7D8593;
+	font-size: 1.25rem;
+}
 
 .fa-caret-left {
 	color: #4BA2F3;
 }
-
-.fa-bars {
-	color: #7D8593;
-}
-
 .sidebar-show-hide:hover {
 	background-color: #4BA2F3;
 	color: #FFFFFF;
 }
 
-.fa-caret-left:hover {
+/*.fa-caret-left:hover {
 	color: #FFFFFF;
-}
+}*/
 
-.fa-bars:hover {
-	color: #FFFFFF;
-}
+
+
+
+
+
 
 .fa-search {
 	color: #9AA2AF;
+	font-size: 1.25rem;
 }
 
 .fa-map-marker-alt {
@@ -449,9 +467,8 @@ h2 {
 
 .search-icons {
 	color: #9AA2AF;
+	font-size: 1.25rem;
 }
-
-
 
 .search-icons:hover {
 	background-color: #4BA2F3;
@@ -472,6 +489,11 @@ h2 {
 /*Social Icons*/
 .social-header-icons {
 	padding: 0 0.5rem 0 0;
+}
+
+.fab {
+	font-size: 1.25rem;
+	padding: 0 2.75rem 0 2rem;
 }
 
 
