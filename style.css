@@ -420,28 +420,23 @@ h1 {
 
 .job-descrip {
 	line-height: 1.25rem;
-	/*padding: 1rem 0;*/
+	padding: 2rem 0;
 	display: flex;
 	align-items: flex-start;	
 }
-
-/*.tble-bord-btm {
-	border-bottom: 1px solid #D8DEE4;	
-}*/
-
-/*.test-break-left {
-	padding: 0 0 0 2rem;
-}
-
-.test-break-left {
-	padding: 0 2rem 0 0;
-}*/
 
 .hiring-lead {
 	width: 2.5rem;
 	margin: 0 0.75rem 0 0;
 }
 
+.salary {
+	border: 0;
+}
+
+.salary-amt {
+	font-size: 1rem;
+}
 
 /*Social*/
 
