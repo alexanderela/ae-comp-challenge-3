@@ -8,6 +8,8 @@ body {
 	grid-template-columns: 14rem 1fr;
 	font-family: 'Open Sans', sans-serif;
 	cursor: auto;
+	width: 100%;
+	height: 100%;
 }
 
 button {
@@ -146,9 +148,7 @@ h4 {
 /*Main Content*/
 .main-content {
 	background-color: #EAF1F5;
-/*	display: block;
-	margin: 0 auto;*/
-	}
+}
 
 
 
@@ -328,7 +328,24 @@ h1 {
 }
 
 .chart {
+	width: 26rem;
+}
+
+.donut-wrapper {
 	width: 30rem;
+	border: 3px solid black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.donut-div {
+	width: 10rem;
+	height: 10rem;
+	border: 3px solid red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 /*Donuts*/
