@@ -416,9 +416,7 @@ h1 {
 .main-break-button {
 	height: 2.25rem;
 	width: 2.25rem;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	padding: 0.25rem;
 	margin: 0 0.5rem;
 }
 
@@ -483,7 +481,7 @@ h1 {
 	background-color: #7E8BA4;
 	border: none;
 	padding: 0.5rem 1rem;
-	border-radius: 1px;
+	border-radius: 3px;
 }
 
 .button-table-edit:hover {
@@ -638,22 +636,19 @@ h2 {
 	font-size: 1.25rem;
 }
 
+.caret-blue {
+	height: 0.65rem;
+}
+
 .fa-caret-left {
 	color: #4BA2F3;
 }
+
 .sidebar-show-hide:hover {
-	background-color: #4BA2F3;
+	background-color: #f39c4b;
 	color: #FFFFFF;
-
+	border: 2px solid #f39c4b;
 }
-
-/*.fa-caret-left:hover {
-	color: #FFFFFF;
-}*/
-
-
-
-
 
 
 
