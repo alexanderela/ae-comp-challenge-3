@@ -8,6 +8,8 @@ body {
 	grid-template-columns: 14rem 1fr;
 	font-family: 'Open Sans', sans-serif;
 	cursor: auto;
+	width: 100%;
+	height: 100%;
 }
 
 button {
@@ -146,9 +148,7 @@ h4 {
 /*Main Content*/
 .main-content {
 	background-color: #EAF1F5;
-/*	display: block;
-	margin: 0 auto;*/
-	}
+}
 
 
 
@@ -328,38 +328,38 @@ h1 {
 }
 
 .chart {
-	width: 30rem;
+	width: 26rem;
 }
 
-/*Donuts*/
-/*.flex-wrapper {
-  display: flex;
-  flex-flow: row nowrap;
-}
+/*Circle Charts*/
 
-.single-chart {
-  width: 33%;
-  justify-content: space-around ;
+.circle-wrap {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 .circular-chart {
-  display: block;
+  display: inline-block;
   margin: 10px auto;
-  max-width: 80%;
+  max-width: 28%;
   max-height: 250px;
 }
 
-.circle-bg {
-  fill: none;
-  stroke: #eee;
-  stroke-width: 3.8;
-}
-
 .circle {
+  stroke: #4CC790;
   fill: none;
   stroke-width: 2.8;
   stroke-linecap: round;
   animation: progress 1s ease-out forwards;
+}
+
+.outline-circle {
+  stroke: #DBE4EA;
+  fill: none;
+  stroke-width: 2.8;
+  stroke-linecap: round;
+
 }
 
 @keyframes progress {
@@ -368,26 +368,27 @@ h1 {
   }
 }
 
-.circular-chart.orange .circle {
-  stroke: #ff9f00;
-}
-
-.circular-chart.green .circle {
-  stroke: #4CC790;
-}
-
-.circular-chart.blue .circle {
-  stroke: #3c9ee5;
-}
-
-.percentage {
-  fill: #666;
-  font-family: sans-serif;
-  font-size: 0.5em;
+.chart-number {
+  font-size: 0.6em;
+  line-height: 1;
   text-anchor: middle;
+  -moz-transform: translateY(-0.25em);
+  -ms-transform: translateY(-0.25em);
+  -webkit-transform: translateY(-0.25em);
+  transform: translateY(0em);
 }
-*/
-/*Donuts-End*/
+
+.chart-label {
+  font-size: 0.2em;
+  text-transform: uppercase;
+  text-anchor: middle;
+  -moz-transform: translateY(0.7em);
+  -ms-transform: translateY(0.7em);
+  -webkit-transform: translateY(0.7em);
+  transform: translateY(2.5em);
+}
+
+/*Circle Chart End*/
 
 
 
