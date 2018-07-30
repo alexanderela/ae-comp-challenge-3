@@ -88,7 +88,6 @@ hr {
 }
 
 .sidebar-icon {
-	/*margin: 0 0.75rem 0 0;*/
 	font-size: 1rem;
  }
 
@@ -116,19 +115,10 @@ h4 {
 
 
 /*Sidebar Icons*/
-.fas {
-
-}
-
-.far {
-
-}
-
 
 .fa-check-square {
 	color: #F8D649;
 }
-
 
 .fa-square-blue {
 	color: #56ADF8;	
@@ -196,14 +186,8 @@ h4 {
 	border-right: none;
 }
 
-/*.right-search-btn:hover {
-	border-right: 2px solid #4BA2F3;
-}*/
-
 
 /*Main Content Middle Section*/
-
-
 
 .summary {
 	background-color: #FFFFFF;
@@ -510,7 +494,7 @@ h1 {
 }
 
 .button-table-edit:hover {
-	background-color: #68B8BF;	
+	background-color: #475164;	
 }
 
 .tbl-entry {
@@ -651,7 +635,7 @@ h2 {
 }
 
 .copy-button:hover {
-	background-color: #7E8BA4;	
+	background-color: #34767C;	
 }
 
 
@@ -674,8 +658,6 @@ h2 {
 	color: #FFFFFF;
 	border: 2px solid #f39c4b;
 }
-
-
 
 .fa-search {
 	color: #9AA2AF;
@@ -711,11 +693,9 @@ h2 {
 	padding: 0 0.25rem 0 0;
 }
 
-
 .fa-pencil-alt {
 	margin: 0 0.35rem 0 0;
 }
-
 
 /*Social Icons*/
 .social-header-icons {
