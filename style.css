@@ -342,14 +342,13 @@ h1 {
 .circular-chart {
   display: inline-block;
   margin: 10px auto;
-  max-width: 28%;
+  max-width: 30%;
   max-height: 250px;
 }
 
 .circle {
-  stroke: #4CC790;
   fill: none;
-  stroke-width: 2.8;
+  stroke-width: 2.3;
   stroke-linecap: round;
   animation: progress 1s ease-out forwards;
 }
@@ -357,10 +356,24 @@ h1 {
 .outline-circle {
   stroke: #DBE4EA;
   fill: none;
-  stroke-width: 2.8;
+  stroke-width: 2.3;
   stroke-linecap: round;
 
 }
+
+.green-circle {
+  stroke: #65B3BA;	
+}
+
+.blue-circle {
+  stroke: #4BA2F3;	
+}
+
+.magenta-circle {
+  stroke: #A46CAB;	
+}
+
+
 
 @keyframes progress {
   0% {
@@ -368,8 +381,18 @@ h1 {
   }
 }
 
+.chart-text {
+ font: 16px/1.4rem 'Open Sans', sans-serif;
+  -moz-transform: translateY(0.25em);
+  -ms-transform: translateY(0.25em);
+  -webkit-transform: translateY(0.25em);
+  transform: translateY(0.25em);
+  /*letter-spacing: -1px;*/
+}
 .chart-number {
-  font-size: 0.6em;
+  font-size: 0.5rem;
+  font-weight: 600;
+  fill: #51535F;
   line-height: 1;
   text-anchor: middle;
   -moz-transform: translateY(-0.25em);
@@ -379,8 +402,9 @@ h1 {
 }
 
 .chart-label {
-  font-size: 0.2em;
-  text-transform: uppercase;
+  font-size: 0.19rem;
+  font-weight: 700;
+ 	fill: #727D93;
   text-anchor: middle;
   -moz-transform: translateY(0.7em);
   -ms-transform: translateY(0.7em);
