@@ -24,7 +24,7 @@ hr {
 	color: #A5B6C3;
 	font-size: 0.85rem;
 	font-weight: 700;
-padding: 0.25rem 0 1rem;
+	padding: 0.25rem 0 1rem;
 }
 
 .sidebar-profile {
@@ -134,7 +134,7 @@ h4 {
 
 /*Main Content*/
 .main-content {
-	background-color: #EDF2F6;
+	background-color: #EAF1F5;
 /*	display: block;
 	margin: 0 auto;*/
 	}
@@ -292,7 +292,7 @@ h1 {
 
 .graph-button {
 	width: auto;
-	margin: 0 auto;
+	margin: 0.75rem auto 0;
 }
 
 .round-search {
@@ -304,11 +304,16 @@ h1 {
 	display: grid;
 	grid-template-columns: 1fr 1fr;	
 	align-items: center;
-	margin: 0 0 3rem 0;
+	justify-items: center;
+	margin: 2rem 3rem 3rem;
 }
 
 .chart {
-	width: 28rem;
+	width: 30rem;
+}
+
+.bar-graph {
+	margin: 0 0 0 0;
 }
 
 /*Main Content Lower Section*/
