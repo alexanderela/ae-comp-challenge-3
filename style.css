@@ -302,6 +302,7 @@ h1 {
 .graph-button {
 	width: auto;
 	margin: 0.75rem auto 0;
+	grid-row: 2;
 }
 
 .round-search {
@@ -318,7 +319,7 @@ h1 {
 }
 
 .chart {
-	width: 26rem;
+	height: 16rem;
 }
 
 /*Circle Charts*/
