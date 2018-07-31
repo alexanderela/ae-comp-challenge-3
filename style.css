@@ -327,6 +327,7 @@ h1 {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .circular-chart {
@@ -791,7 +792,7 @@ h2 {
 
 
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 930px) {
 
 body {
 	grid-template-columns: 1fr;
