@@ -260,6 +260,7 @@ h4 {
 	padding: 0 0 1rem;
 	border-bottom: 3px solid #FFFFFF;
 	cursor: pointer;
+	display: inline-block;
 }
 
 .summary-nav li:hover {
@@ -267,9 +268,6 @@ h4 {
 	border-bottom: 3px solid #4BA2F3;
 }
 
-.summary-nav li {
-	display: inline-block;
-}
 
 h1 {
 	font-size: 1.5rem;
@@ -718,6 +716,78 @@ h2 {
 
 /*Media Queries*/
 
+@media screen and (max-width: 1062px) {
+
+.summary-nav li {
+	margin: 0 0.5rem;
+	padding: 0 0 1rem;
+}
+
+.circle-wrap {
+	flex-direction: column;
+}
+
+.table {
+	display: grid;
+	grid-template-columns: 1fr;
+	height: 66.2rem;
+	margin: 3rem 0 3rem 3rem;
+}
+
+.tbl-header-right {
+	border-radius: 3%;
+}
+
+.tbl-entry {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem 0;
+}
+
+.tbl-hd {
+	display: block;
+	margin: 0 auto;
+	width: 85%;
+	border-bottom: none;	
+}
+
+
+.tbl-content {
+	display: block;
+	margin: 0 auto;
+	width: 85%;
+}
+
+
+.table-header-left {
+	border-radius: 3px 3px 0 0;
+	padding: 1rem 0;
+}
+
+.table-header-right {
+	border-radius: 0;
+	padding: 0.5rem 0;
+}
+
+.hiring-lead {
+	display: block;
+  padding: 0 0 0.25rem 0
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
 @media screen and (max-width: 830px) {
 
 body {
@@ -728,5 +798,9 @@ body {
 	display: none;
 }
 
+.summary-nav {
+	display: flex;
+	justify-content: center;
+}
 
 }
