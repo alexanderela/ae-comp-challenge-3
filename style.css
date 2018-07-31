@@ -730,19 +730,17 @@ h2 {
 .table {
 	display: grid;
 	grid-template-columns: 1fr;
-	height: 66.2rem;
-	margin: 3rem 0 3rem 3rem;
-}
+	/*grid-template-rows: repeat(auto-fit, minmax(6rem, 1fr));*/
 
-.tbl-header-right {
-	border-radius: 3%;
+	height: 53.2rem;
+	margin: 3rem 0 3rem 3rem;
 }
 
 .tbl-entry {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 1rem 0;
+	padding: 0.75rem 0 0.5rem;
 }
 
 .tbl-hd {
@@ -766,7 +764,7 @@ h2 {
 
 .table-header-left {
 	border-radius: 3px 3px 0 0;
-	padding: 1rem 1.5rem;
+	padding: 0.25rem 1.5rem;
 	/*padding: 1rem 0;*/
 }
 
@@ -781,9 +779,6 @@ h2 {
   padding: 0 0 0.25rem 0
 }
 
-.social {
-	display: block;
-}
 
 
 
