@@ -325,16 +325,14 @@ h1 {
 /*Circle Charts*/
 
 .circle-wrap {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	flex-wrap: wrap;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
 }
 
 .circular-chart {
   display: inline-block;
   margin: 10px auto;
-  max-width: 30%;
+  max-width: 88%;
   max-height: 250px;
 }
 
@@ -783,11 +781,7 @@ h2 {
 
 
 
-
-
 }
-
-
 
 
 
@@ -809,3 +803,21 @@ body {
 }
 
 }
+
+@media screen and (max-width: 768px) {
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
