@@ -408,6 +408,7 @@ h1 {
 
 .bar-graph {
 	margin: 0 0 0 0;
+	width: 25rem;
 }
 
 /*Main Content Lower Section*/
@@ -779,11 +780,19 @@ h2 {
   padding: 0 0 0.25rem 0
 }
 
-
+.button-table-edit {
+	padding: 0.25rem 0.75rem;	
+}
 
 }
 
+@media screen and (max-width: 1070px) {
 
+.bar-graph {
+	width: 20rem;
+}
+
+}
 
 
 
@@ -804,13 +813,58 @@ body {
 
 }
 
-@media screen and (max-width: 768px) {
 
+
+@media screen and (max-width: 800px) {
+
+
+.graphs {
+
+	grid-template-columns: 1fr;
+
+	grid-template-areas:
+		"circles"
+		"totals"
+		"bars"
+		"applicants";
+}
+
+.circle-wrap {
+	grid-area: circles;
+}
+
+.btn-totals {
+	grid-area: totals;
+}
+
+.bar-graph {
+	grid-area: bars;
+	width: 30rem;
+}
+
+.btn-applicants {
+	grid-area: applicants;
+}
+
+.circular-chart {
+	max-width: 75%;
+}
+
+.graph-button {
+	margin: 1.75rem auto 1rem;
+}
 
 
 }
 
 
+
+
+@media screen and (max-width: 450px) {
+
+
+
+}
 
 
 
