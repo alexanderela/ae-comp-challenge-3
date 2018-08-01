@@ -109,6 +109,30 @@ h4 {
 
 /*Sidebar Icons*/
 
+.li-home {
+	padding: 0 0 0 0.65rem;
+}
+
+.li-jobs {
+	padding: 0 0 0 0.75rem;
+}
+
+.li-calendar {
+	padding: 0 0 0 0.85rem;	
+}
+
+.li-users {
+	padding: 0 0 0 0.6rem;	
+}
+
+.li-locations {
+	padding: 0 0 0 1.1rem;
+}
+
+.li-social {
+	padding: 0 0 0 0.65rem;
+}
+
 .fa-check-square {
 	color: #F8D649;
 }
@@ -641,7 +665,7 @@ h2 {
 }
 
 .fa-map-marker-alt {
-	margin: 0 0.35rem 0 0.25rem;
+	/*margin: 0 0.35rem 0 0.25rem;*/
 }
 
 .search-icons {
