@@ -863,6 +863,97 @@ body {
 @media screen and (max-width: 450px) {
 
 
+.main-content {
+	width: 100vw;
+}
+
+
+.summary {
+	flex-direction: column;
+	align-items: center;
+}
+
+.summary-left-contain {
+	text-align: center;
+	margin: 0 0 2rem 0;
+}
+
+h1 {   
+	font-size: 2rem;
+  line-height: 1.25;
+}
+
+.summary-right-contain {
+	width: 18.5rem;
+}
+
+.round-search {
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+.button-main-text {
+    height: 3.5rem;
+ }
+
+.location {
+	font-size: 1rem;
+}
+
+.graphs {
+	width: 100vw;
+	/*margin: 0;*/
+}
+
+.circle-wrap {
+  width: 88vw;	
+}
+
+.bar-graph {
+  width: 80vw;		
+}
+
+.main-break-contain {
+	width: 100vw;	
+	margin: 0;
+}
+
+.main-break-graph {
+	width: 32%;
+}
+
+.main-break-button {
+    height: 3.25rem;
+    width: 3.25rem;
+}
+
+.main-content-lower {
+	grid-template-columns: 1fr;
+  width: 100vw;
+}
+
+.table {
+	margin: 3rem;
+}
+
+.social {
+	width: 100vw;
+	margin: 1rem 0 0 0;
+}
+
+.social-button {
+  justify-content: center;
+}
+
+.fab {
+   padding: 0 0.75rem 0 0;
+}
+
+
+
+.linkedin {
+	margin: 0 0 3rem;
+}
 
 }
 
@@ -870,7 +961,15 @@ body {
 
 
 
+@media screen and (max-width: 412px) {
+	.table {
+		height: 60.2rem;
+	}
+}
 
+@media screen and (max-width: 390px) {
+
+}
 
 
 
