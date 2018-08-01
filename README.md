@@ -25,14 +25,14 @@ Creative License
 
 
 ## Assigned Comp:
-![Comp assigned]()
+![Comp assigned](https://github.com/alexanderela/ae-comp-challenge-3/blob/master/Final_Product/Original_Assigned_Comp.jpg)
 
 ## Final Product:
 ### Desktop Version
-![Final product desktop version]()
+![Final product desktop version](https://github.com/alexanderela/ae-comp-challenge-3/blob/master/Final_Product/AEla_Static_Comp_3_Desktop.png)
 
 ### Tablet Version
-![Final product tablet version]()
+![Final product tablet version](https://github.com/alexanderela/ae-comp-challenge-3/blob/master/Final_Product/AEla_Static_Comp_3_iPad.png)
 
 ### Mobile Version
-![Final product mobile version]()
+![Final product mobile version](https://github.com/alexanderela/ae-comp-challenge-3/blob/master/Final_Product/AEla_Static_Comp_3_iPhone_5.png)
