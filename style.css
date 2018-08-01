@@ -712,7 +712,16 @@ h2 {
 }
 
 
+
+
 /*Media Queries*/
+
+@media screen and (min-width: 1600px) {
+.bar-graph {
+	width: 32rem;
+}
+
+}
 
 @media screen and (max-width: 1062px) {
 
@@ -721,9 +730,6 @@ h2 {
 	padding: 0 0 1rem;
 }
 
-/*.circle-wrap {
-	flex-direction: column;
-}*/
 
 .table {
 	display: grid;
