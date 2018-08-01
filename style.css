@@ -352,8 +352,8 @@ h1 {
  	font: 16px/1.4rem 'Open Sans', sans-serif;
   -moz-transform: translateY(0.25em);
   -ms-transform: translateY(0.25em);
-  transform: translateY(0.25em);
   -webkit-transform: translateY(0.25em);
+  transform: translateY(0.25em);
 }
 
 .chart-number {
@@ -361,22 +361,22 @@ h1 {
   font-weight: 600;
   fill: #51535F;
   line-height: 1;
-  -moz-transform: translateY(-0.25em);
   text-anchor: middle;
-  transform: translateY(0em);
+  -moz-transform: translateY(-0.25em);
   -ms-transform: translateY(-0.25em);
   -webkit-transform: translateY(-0.25em);
+  transform: translateY(0em);
 }
 
 .chart-label {
   font-size: 0.19rem;
   font-weight: 700;
  	fill: #727D93;
+  text-anchor: middle;
   -moz-transform: translateY(0.7em);
   -ms-transform: translateY(0.7em);
-  text-anchor: middle;
-  transform: translateY(2.5em);
   -webkit-transform: translateY(0.7em);
+  transform: translateY(2.5em);
 }
 
 
