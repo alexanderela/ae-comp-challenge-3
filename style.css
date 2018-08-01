@@ -302,6 +302,7 @@ h1 {
 .graph-button {
 	width: auto;
 	margin: 0.75rem auto 0;
+	/*grid-row: 2;*/
 }
 
 .round-search {
@@ -318,21 +319,20 @@ h1 {
 }
 
 .chart {
-	width: 26rem;
+	width: 20rem;
 }
 
 /*Circle Charts*/
 
 .circle-wrap {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
 }
 
 .circular-chart {
   display: inline-block;
   margin: 10px auto;
-  max-width: 30%;
+  max-width: 88%;
   max-height: 250px;
 }
 
@@ -408,6 +408,7 @@ h1 {
 
 .bar-graph {
 	margin: 0 0 0 0;
+	width: 25rem;
 }
 
 /*Main Content Lower Section*/
@@ -723,26 +724,24 @@ h2 {
 	padding: 0 0 1rem;
 }
 
-.circle-wrap {
+/*.circle-wrap {
 	flex-direction: column;
-}
+}*/
 
 .table {
 	display: grid;
 	grid-template-columns: 1fr;
-	height: 66.2rem;
-	margin: 3rem 0 3rem 3rem;
-}
+	/*grid-template-rows: repeat(auto-fit, minmax(6rem, 1fr));*/
 
-.tbl-header-right {
-	border-radius: 3%;
+	height: 53.2rem;
+	margin: 3rem 0 3rem 3rem;
 }
 
 .tbl-entry {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 1rem 0;
+	padding: 0.75rem 0 0.5rem;
 }
 
 .tbl-hd {
@@ -759,15 +758,21 @@ h2 {
 	width: 85%;
 }
 
+.table-header {
+	display: flex;
+	justify-content: flex-start;
+}
 
 .table-header-left {
 	border-radius: 3px 3px 0 0;
-	padding: 1rem 0;
+	padding: 0.25rem 1.5rem;
+	/*padding: 1rem 0;*/
 }
 
 .table-header-right {
 	border-radius: 0;
-	padding: 0.5rem 0;
+	padding: 0.5rem 1.5rem;	
+/*	padding: 0.5rem 0;*/
 }
 
 .hiring-lead {
@@ -775,20 +780,23 @@ h2 {
   padding: 0 0 0.25rem 0
 }
 
+.button-table-edit {
+	padding: 0.25rem 0.75rem;	
+}
 
+}
 
+@media screen and (max-width: 1070px) {
 
-
+.bar-graph {
+	width: 20rem;
+}
 
 }
 
 
 
-
-
-
-
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 930px) {
 
 body {
 	grid-template-columns: 1fr;
@@ -804,3 +812,165 @@ body {
 }
 
 }
+
+
+
+@media screen and (max-width: 800px) {
+
+
+.graphs {
+
+	grid-template-columns: 1fr;
+
+	grid-template-areas:
+		"circles"
+		"totals"
+		"bars"
+		"applicants";
+}
+
+.circle-wrap {
+	grid-area: circles;
+}
+
+.btn-totals {
+	grid-area: totals;
+}
+
+.bar-graph {
+	grid-area: bars;
+	width: 30rem;
+}
+
+.btn-applicants {
+	grid-area: applicants;
+}
+
+.circular-chart {
+	max-width: 75%;
+}
+
+.graph-button {
+	margin: 1.75rem auto 1rem;
+}
+
+
+}
+
+
+
+
+@media screen and (max-width: 450px) {
+
+
+.main-content {
+	width: 100vw;
+}
+
+
+.summary {
+	flex-direction: column;
+	align-items: center;
+}
+
+.summary-left-contain {
+	text-align: center;
+	margin: 0 0 2rem 0;
+}
+
+h1 {   
+	font-size: 2rem;
+  line-height: 1.25;
+}
+
+.summary-right-contain {
+	width: 18.5rem;
+}
+
+.round-search {
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+.button-main-text {
+    height: 3.5rem;
+ }
+
+.location {
+	font-size: 1rem;
+}
+
+.graphs {
+	width: 100vw;
+	/*margin: 0;*/
+}
+
+.circle-wrap {
+  width: 88vw;	
+}
+
+.bar-graph {
+  width: 80vw;		
+}
+
+.main-break-contain {
+	width: 100vw;	
+	margin: 0;
+}
+
+.main-break-graph {
+	width: 32%;
+}
+
+.main-break-button {
+    height: 3.25rem;
+    width: 3.25rem;
+}
+
+.main-content-lower {
+	grid-template-columns: 1fr;
+  width: 100vw;
+}
+
+.table {
+	margin: 3rem;
+}
+
+.social {
+	width: 100vw;
+	margin: 1rem 0 0 0;
+}
+
+.social-button {
+  justify-content: center;
+}
+
+.fab {
+   padding: 0 0.75rem 0 0;
+}
+
+
+
+.linkedin {
+	margin: 0 0 3rem;
+}
+
+}
+
+
+
+
+
+@media screen and (max-width: 412px) {
+	.table {
+		height: 60.2rem;
+	}
+}
+
+@media screen and (max-width: 390px) {
+
+}
+
+
+
+
