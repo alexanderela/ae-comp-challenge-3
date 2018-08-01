@@ -9,33 +9,36 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 		<title>Static Comp 3</title>
 	</head>
+	
 	<body>
+
+<!-- Sidebar -->
 
 		<section class="sidebar">
 			<header class="sidebar-profile">
-				<img class="profile-img headshot" src="Images/A_Ela.jpg">
-				<p class="profile-name">Rudy Booleani <i class="fas fa-caret-down"></i></p>
+				<img class="profile-img headshot" src="Images/A_Ela.jpg" alt="user profile image">
+				<p class="profile-name" aria-label="user name">Rudy Booleani <i class="fas fa-caret-down" alt=""></i></p>
 			</header>
 			<hr class="sidebar-break">			
 			<ul class="side-nav sidebar">
 				<h4>Main</h4>
 				<li class="sidebar-li">
-					<i class="fas fa-home sidebar-icon"></i>
+					<i class="fas fa-home sidebar-icon" alt=""></i>
 					<span class="side-bar-text">HOME</span>
 				</li>
 				<li class="sidebar-li">
-					<i class="fas fa-briefcase sidebar-icon"></i>
+					<i class="fas fa-briefcase sidebar-icon" alt=""></i>
 					<span class="side-bar-text">JOBS</span>
 				</li>
 				<li class="sidebar-li">
-					<i class="fas fa-file sidebar-icon"></i>
+					<i class="fas fa-file sidebar-icon" alt=""></i>
 				<span class="side-bar-text">RESUMES</span></li>
 				<li class="sidebar-li">
-					<i class="fas fa-clipboard-list sidebar-icon"></i>
+					<i class="fas fa-clipboard-list sidebar-icon" alt=""></i>
 				<span class="side-bar-text">TASKS</span>
 				</li>
 				<li class="sidebar-li">
-					<i class="far fa-calendar-alt sidebar-icon"></i>
+					<i class="far fa-calendar-alt sidebar-icon" alt=""></i>
 				<span class="side-bar-text">CALENDAR</span></li>
 			</ul>
 
@@ -44,23 +47,23 @@
 			<ul class="side-nav sidebar">
 					<h4>Admin</h4>
 					<li class="sidebar-li">
-						<i class="fas fa-user-friends sidebar-icon"></i>
+						<i class="fas fa-user-friends sidebar-icon" alt=""></i>
 					<span class="side-bar-text">USERS</span>
 				</li>
 				<li class="sidebar-li">
-					<i class="fas fa-map-marker-alt sidebar-icon"></i>
+					<i class="fas fa-map-marker-alt sidebar-icon" alt=""></i>
 				<span class="side-bar-text">LOCATIONS</span>
 				</li>
 				<li class="sidebar-li">
-					<i class="fas fa-code-branch sidebar-icon sidebar-icon"></i>
+					<i class="fas fa-code-branch sidebar-icon sidebar-icon" alt=""></i>
 					<span class="side-bar-text">WORKFLOWS</span>
 				</li>
 				<li class="sidebar-li">
-					<i class="far fa-newspaper sidebar-icon"></i>
+					<i class="far fa-newspaper sidebar-icon" alt=""></i>
 					<span class="side-bar-text">JOB BOARDS</span>
 				</li>
 				<li class="sidebar-li">
-					<i class="fas fa-project-diagram sidebar-icon"></i>
+					<i class="fas fa-project-diagram sidebar-icon" alt=""></i>
 					<span class="side-bar-text">SOCIAL</span>
 				</li>
 			</ul>
@@ -70,65 +73,69 @@
 			<ul class="side-nav sidebar">
 				<h4>Categories</h4>
 				<li class="sidebar-checkbox">
-					<i class="fas fa-check-square sidebar-icon"></i>
+					<i class="fas fa-check-square sidebar-icon" alt=""></i>
 					<span class="side-bar-text">Administrative</span>
 				</li>
 				<li class="sidebar-checkbox">
-					<i class="fas fa-square fa-square-blue sidebar-icon sidebar-icon"></i>
+					<i class="fas fa-square fa-square-blue sidebar-icon sidebar-icon" alt=""></i>
 					<span class="side-bar-text">Design</span></li>
 				<li class="sidebar-checkbox">
-					<i class="fas fa-square fa-square-red sidebar-icon"></i>
+					<i class="fas fa-square fa-square-red sidebar-icon" alt=""></i>
 					<span class="side-bar-text">Executive</span></li>
 				<li class="sidebar-checkbox">
-					<i class="fas fa-square fa-square-green sidebar-icon"></i>
+					<i class="fas fa-square fa-square-green sidebar-icon" alt=""></i>
 					<span class="side-bar-text">Human Resources</span>
 				</li>
 			</ul>			
 		</section>
 
+<!-- Search Bar -->
+
 		<main class="main-content">
 			<nav class="header-search">
 				<button class="sidebar-show-hide">
-					<i class="fas fa-caret-left"></i>
-					<i class="fas fa-bars"></i>
+					<i class="fas fa-caret-left" alt="" aria-label="show and hide sidebar"></i>
+					<i class="fas fa-bars" alt=""></i>
 				</button>
 				<div class="main-search">
-					<i class="fas fa-search"></i>
-					<input class="search-input" type="search" placeholder="Search for a job, task or resume">
+					<i class="fas fa-search" alt=""></i>
+					<input class="search-input" type="search" placeholder="Search for a job, task or resume" aria-label="search">
 				</div>
-				<button class="search-icons search-user">
-					<i class="fas fa-user-plus"></i>
+				<button class="search-icons search-user" aria-label="add user profile">
+					<i class="fas fa-user-plus" alt=""></i>
 				</button>		
-				<button class="search-icons search-calendar">
-					<i class="fas fa-calendar-plus"></i>
+				<button class="search-icons search-calendar" aria-label="appointment">
+					<i class="fas fa-calendar-plus" alt=""></i>
 				</button>
-				<button class="search-icons right-search-btn search-menu">
-					<i class="fas fa-th"></i>
+				<button class="search-icons right-search-btn search-menu" aria-label="menu">
+					<i class="fas fa-th" alt=""></i>
 				</button>							
 			</nav>
+
+<!-- Summary Nav -->
 
 			<section class="summary">
 				<div class="summary-left-contain">
 					<h1>Customer Service Representative</h1>
 					<p class="location">
-						<span class="location-text"><i class="fas fa-map-marker-alt paragraph-text-grey"></i>Denver, CO
-							<i class="fas fa-circle circle-small"></i></span>
+						<span class="location-text"><i class="fas fa-map-marker-alt paragraph-text-grey" alt="location marker"></i>Denver, CO
+							<i class="fas fa-circle circle-small" alt=""></i></span>
 							<span class="preview-post">Preview this Post
 							</span>
 					</p>
 				</div>
 				<div class="summary-right-contain">
 					<button class="button-main button-main-text">
-						<i class="fas fa-circle circle-large"></i>OPEN
+						<i class="fas fa-circle circle-large" alt="" aria-label="position status"></i>OPEN
 					</button>
 					<button class="button-main button-main-icon round-search">
-						<i class="fas fa-bookmark"></i>
+						<i class="fas fa-bookmark" alt="" aria-label="add bookmark"></i>
 					</button>		
-					<button class="button-main button-main-icon round-search">
-						<i class="fas fa-pencil-alt"></i>
+					<button class="button-main button-main-icon round-search" aria-label="edit profile">
+						<i class="fas fa-pencil-alt" alt=""></i>
 					</button>
-					<button class="button-main button-main-icon round-search">
-						<i class="far fa-trash-alt"></i>
+					<button class="button-main button-main-icon round-search" aria-label="delete profile">
+						<i class="far fa-trash-alt" alt=""></i>
 					</button>	
 				</div>
 			</section>
@@ -140,13 +147,15 @@
 						<li>INTERVIEWS</li>				
 						<li>ACTIVITY</li>	
 						<li>BROADCAST</li>
-						<li>NOTIFICATIONS</li>								
+						<li>NOTIFICATIONS</li>						
 				</ul>
 			</section>
-<!-- Graphs Start -->
+
+<!-- Graphs -->
+
 			<section class="graphs">	
 				<section class="circle-wrap">
-					<svg version="1.1" baseProfile="full" width="1000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" class="circular-chart">
+					<svg version="1.1" baseProfile="full" width="1000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" class="circular-chart" alt="circle chart showing data results of 3,154 applicants out of 5,231 views">
 						<path class="outline-circle"
 					    stroke-dasharray="100, 100"
 					    d="M18 33.9155
@@ -154,7 +163,7 @@
 					      a 15.9155 15.9155 0 0 1 0 31.831"
 					  />
 					  <path class="circle green-circle"
-					    stroke-dasharray="79, 100"
+					    stroke-dasharray="60, 100"
 					    d="M18 33.9155
 					      a 15.9155 15.9155 0 0 1 0 -31.831
 					      a 15.9155 15.9155 0 0 1 0 31.831"
@@ -169,7 +178,7 @@
 						</g>
 					</svg>
 					
-					<svg version="1.1" baseProfile="full" width="1000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" class="circular-chart">
+					<svg version="1.1" baseProfile="full" width="1000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" class="circular-chart" alt="circle chart showing data results of 1,546 interviews out of 5,231 views">
 						<path class="outline-circle"
 					    stroke-dasharray="100, 100"
 					    d="M18 33.9155
@@ -177,7 +186,7 @@
 					      a 15.9155 15.9155 0 0 1 0 31.831"
 					  />		
 					  <path class="circle blue-circle"
-					    stroke-dasharray="39, 100"
+					    stroke-dasharray="30, 100"
 					    d="M18 33.9155
 					      a 15.9155 15.9155 0 0 1 0 -31.831
 					      a 15.9155 15.9155 0 0 1 0 31.831"
@@ -192,7 +201,7 @@
 						</g>
 					</svg>
 					
-					<svg version="1.1" baseProfile="full" width="1000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" class="circular-chart">
+					<svg version="1.1" baseProfile="full" width="1000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" class="circular-chart" alt="circle chart showing data results of 912 forwards out of 5,231 views">
 						<path class="outline-circle"
 					    stroke-dasharray="100, 100"
 					    d="M18 33.9155
@@ -200,7 +209,7 @@
 					      a 15.9155 15.9155 0 0 1 0 31.831"
 					  />
 					  <path class="circle magenta-circle"
-					    stroke-dasharray="23, 100"
+					    stroke-dasharray="17, 100"
 					    d="M18 33.9155
 					      a 15.9155 15.9155 0 0 1 0 -31.831
 					      a 15.9155 15.9155 0 0 1 0 31.831"
@@ -215,35 +224,36 @@
 						</g>
 					</svg>
 				</section>
-				<img class="chart bar-graph" src="Images/bar_graph.png">
-				<button class="button-main button-main-text graph-button btn-totals">TOTALS
-					<i class="fas fa-circle circle-small"></i>Out of 5,231 views
+
+				<img class="chart bar-graph" src="Images/bar_graph.png" alt="bar graph showing number of applicants and interviews on Wednesday, December 3">
+				<button class="button-main button-main-text graph-button btn-totals" aria-label="view data">TOTALS
+					<i class="fas fa-circle circle-small" alt=""></i>Out of 5,231 views
 				</button>
-				<button class="button-main button-main-text graph-button btn-applicants">APPLICANTS/DAY
+				<button class="button-main button-main-text graph-button btn-applicants" aria-label="applicants per day, Wednesday, December 3">APPLICANTS/DAY
 				</button>
 			</section>
 
+<!-- Main Page Break -->
+
 			<div class="main-break-contain">
 				<hr class="main-break main-break-graph">
-				<button class="button-main button-main-icon main-break-button">
-					<i class="fas fa-angle-up"></i>
+				<button class="button-main button-main-icon main-break-button" aria-label="minimize charts and data">
+					<i class="fas fa-angle-up" alt=""></i>
 				</button>
 				<hr class="main-break main-break-graph">
 			</div>
 
-<!-- Table Start -->
+<!-- Table -->
+
 			<section class="main-content-lower">
 				<article class="table">
-
 						<section class="tbl-entry table-header table-header-left">JOB DESCRIPTION
 						</section>	
 						<section class="tbl-entry tbl-entry table-header table-header-right">
 							<button class="button-table-edit">
-								<i class="fas fa-pencil-alt"></i>EDIT
+								<i class="fas fa-pencil-alt" alt=""></i>EDIT
 							</button>
 						</section>
-
-
 						<section class="tbl-hd tbl-entry block-grey">POSITION TITLE
 						</section>
 						<section class="tbl-content tbl-entry p-text-grey">Customer Service Representative
@@ -270,51 +280,49 @@
 						</section>
 						<section class="tbl-hd tbl-entry block-grey">HIRING LEAD
 						</section>
-						<section class="tbl-content tbl-entry p-text-grey"><img src="Images/The_Boss.jpg" class="hiring-lead headshot">Paris Levey
+						<section class="tbl-content tbl-entry p-text-grey"><img src="Images/The_Boss.jpg" class="hiring-lead headshot" alt="image of black cat posing as fictional hiring lead">Paris Levey
 						</section>
 						<section class="tbl-hd tbl-entry block-grey salary">APPROVED SALARY
 						</section>
 						<section class="tbl-content tbl-entry block-grey salary salary-amt">
 						$58,000
-
 					</section>
 				</article>
-<!-- Social Start -->
+
+<!-- Social -->
 
 				<aside class="social">
 					<button class="social-button facebook">
-						<i class="fab fa-facebook-f"></i>
+						<i class="fab fa-facebook-f" alt=""></i>
 					Post to Facebook
 					</button>
 					<button class="social-button twitter">
-						<i class="fab fa-twitter"></i>
+						<i class="fab fa-twitter" alt=""></i>
 					Tweet this Job
 					</button>
 					<button class="social-button linkedin">
-						<i class="fab fa-linkedin"></i>
+						<i class="fab fa-linkedin" alt=""></i>
 					Post to Linkedin
 					</button>
-
-					<h2><i class="fas fa-globe-americas social-header-icons"></i>Link to this Job</h2>
+					<h2><i class="fas fa-globe-americas social-header-icons" alt=""></i>Link to this Job</h2>
 					<p class="social-text">Lorem ipsum dolor sit amet, consectetur adipis cing elit. Integer millis neque eget vestibpend.</p>
 					<section class="social-tags-contain">
 						<span class="social-tags">http://loremipsum.dolor/sit-amet-consectetur-adipiscing.com</span><button class="copy-button">Copy</button>
 					</section>
+
 					<hr class="main-break main-break-social">
 
-					
-					<h2><i class="fas fa-object-group social-header-icons"></i>Use the Button Widget</h2>
+					<h2><i class="fas fa-object-group social-header-icons" alt=""></i>Use the Button Widget</h2>
 					<p class="social-text">This widget embeds the buttons for sharing the job for submitting a resume on your website.</p>
 					<section class="social-tags-contain">
 						<span class="social-tags">&lt;script type="text/javascript"&gt;...&lt;/script&gt;</span><button class="copy-button">Copy</button>
-						
 					</section>
+					
 					<hr class="main-break main-break-social">
 
-					<h2><i class="fas fa-paper-plane social-header-icons"></i>Upload Resumes by Email</h2>
+					<h2><i class="fas fa-paper-plane social-header-icons" alt=""></i>Upload Resumes by Email</h2>
 					<p class="social-text">You can automatically upload multiple resumes to this job by emailing the address below.</p>
 					<section class="social-tags social-tags-contain upload-resume">parislevey@felineCEO.com</section>
-															
 				</aside>
 			</section>
 		</main>
