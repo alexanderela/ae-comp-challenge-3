@@ -805,8 +805,17 @@ h2 {
 
 
 /*New Table Insert*/
+
+		.graphs {
+			margin: 0 5rem;		
+		}
+
 	.main-content-lower {
 	    grid-template-columns: 1fr;
+		}
+
+		.main-break-contain {
+				margin: 0 5rem;
 		}
 
 	.table {
@@ -852,10 +861,6 @@ h2 {
 
 	.social-button {
 		justify-content: center;
-	}
-
-	.social-text {
-		text-align: left;
 	}
 
 	.fab {
