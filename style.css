@@ -474,8 +474,8 @@ h1 {
 	background-color: #FFFFFF;
 	grid-template-columns: 13rem 1fr;
 	grid-template-rows: repeat(9, 1fr);
-	height: 48.2rem;
-	margin: 3rem 0 0 3rem;
+	height: 45.2rem;
+	margin: 3rem 0 2rem 3rem;
 	padding: 0;
 }
 
@@ -557,8 +557,8 @@ h1 {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;;
-	margin: 3rem 0 0 0;
-	padding: 0 3rem 3rem;
+	margin: 3rem 0 3rem 0;
+	padding: 0 3rem 0;
 	width: 100%;
 }
 
@@ -644,7 +644,7 @@ h2 {
 .copy-button {
 	background-color: #68B8BF;
 	border: none;
-	border-radius: 3px;
+	border-radius: 0 3px 3px 0;
 	color: #FFFFFF;
 	height: 2.5rem;
 	width: 20%;
@@ -737,6 +737,15 @@ h2 {
 }
 
 
+@media screen and (max-width: 1070px) {
+
+	.bar-graph {
+		width: 20rem;
+	}
+
+}
+
+
 @media screen and (max-width: 1062px) {
 
 	.header-nav li {
@@ -744,7 +753,7 @@ h2 {
 		padding: 0 0 1rem;
 	}
 
-	.table {
+	/*.table {
 		display: grid;
 		grid-template-columns: 1fr;
 		height: 53.2rem;
@@ -793,22 +802,59 @@ h2 {
 
 	.button-table-edit {
 		padding: 0.25rem 0.75rem;	
+	}*/
+
+
+/*New Table Insert*/
+.main-content-lower {
+    grid-template-columns: 1fr;
 	}
+
+.table {
+		height: 39.2rem;
+		margin: 3rem 5rem 0 5rem;
+	}
+
+
+/*End New Table*/
+
+
+
+
+
 
 	.social {
-		justify-content: flex-start;
+		/*justify-content: flex-start;*/
+		display: grid;
+		grid-gap: 1rem;
+		grid-template-columns: repeat(3, 33.3%);
+	  margin: 3rem 0;
+	  padding: 0 5rem 0;
+	}
+
+
+
+
+
+	.social-button {
+		width: 90%;
+	}
+
+	.link-wrap {
+		width: 90%;
+		text-align: center;
+	}
+
+	h2 {
+		margin: 1.25rem 1rem 1rem;
+	}
+
+	.main-break-social {
+		display: none;
 	}
 
 }
 
-
-@media screen and (max-width: 1070px) {
-
-	.bar-graph {
-		width: 20rem;
-	}
-
-}
 
 
 
@@ -995,6 +1041,58 @@ h2 {
 	}
 
 	
+/*New Table???*/
+
+.table {
+		display: grid;
+		grid-template-columns: 1fr;
+		height: 53.2rem;
+		margin: 3rem 0 3rem 3rem;
+	}
+
+	.tbl-entry {
+		align-items: center;
+		display: flex;
+		justify-content: center;
+		padding: 0.75rem 0 0.5rem;
+	}
+
+	.tbl-hd {
+		border-bottom: none;	
+		display: block;
+		margin: 0 auto;
+		width: 85%;
+	}
+
+	.tbl-content {
+		display: block;
+		margin: 0 auto;
+		width: 85%;
+	}
+
+	.table-header {
+		display: flex;
+		justify-content: flex-start;
+	}
+
+	.table-header-left {
+		border-radius: 3px 3px 0 0;
+		padding: 0.25rem 1.5rem;
+	}
+
+	.table-header-right {
+		border-radius: 0;
+		padding: 0.5rem 1.5rem;	
+	}
+
+	.hiring-lead {
+		display: block;
+	  padding: 0 0 0.25rem 0;
+	}
+
+	.button-table-edit {
+		padding: 0.25rem 0.75rem;	
+	}
 
 
 
@@ -1006,9 +1104,7 @@ h2 {
 
 
 
-
-
-
+/*If moving new table here, combine it with one below:*/
 
 	.table {
 		height: 52.2rem;
