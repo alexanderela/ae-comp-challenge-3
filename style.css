@@ -805,37 +805,31 @@ h2 {
 
 
 /*New Table Insert*/
-.main-content-lower {
-    grid-template-columns: 1fr;
-	}
+	.main-content-lower {
+	    grid-template-columns: 1fr;
+		}
 
-.table {
-		height: 39.2rem;
-		margin: 3rem 5rem 0 5rem;
-		/*width: 90vw;*/
-		width: auto;
-	}
-
-
-/*End New Table*/
-
-
-
-
+	.table {
+			height: 39.2rem;
+			margin: 3rem 5rem 0 5rem;
+			/*width: 90vw;*/
+			width: auto;
+		}
 
 
 	.social {
 		/*justify-content: flex-start;*/
 		display: grid;
-		grid-gap: 1rem;
+		grid-gap: 0.25rem;
 		grid-template-columns: repeat(3, 33.3%);
-	  margin: 3rem 5rem 10rem 5rem;
+	  /*margin: 3rem 5rem 10rem 5rem;*/
+	  padding: 0;
+	  margin: 4rem 5rem;
 	  /*padding: 0 5rem 0;*/
 	  width: 90vw;
+	  /*width: auto;*/
+	  justify-items: center;
 	}
-
-
-
 
 
 	.social-button {
@@ -846,7 +840,6 @@ h2 {
 		width: 90%;
 		text-align: center;
 		padding: 0 0 0;
-
 	}
 
 	h2 {
@@ -855,6 +848,18 @@ h2 {
 
 	.main-break-social {
 		display: none;
+	}
+
+	.social-button {
+		justify-content: center;
+	}
+
+	.social-text {
+		text-align: left;
+	}
+
+	.fab {
+		padding: 0 0.5rem 0 0;
 	}
 
 }
@@ -988,7 +993,14 @@ h2 {
 
 }
 
+@media screen and (max-width: 825px) {
 
+
+	h2 {
+		font-size: 0.85rem;
+	}
+
+}
 
 @media screen and (max-width: 750px) {
 
@@ -998,6 +1010,7 @@ h2 {
 	}
 
 }
+
 
 
 
