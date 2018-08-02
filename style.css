@@ -603,7 +603,6 @@ h2 {
 	color: #556072;
 	font-weight: 600;
 	margin: 1.25rem 0 1rem;
-
 }
 
 .social-text {
@@ -740,7 +739,7 @@ h2 {
 @media screen and (max-width: 1070px) {
 
 	.bar-graph {
-		width: 20rem;
+		width: 22rem;
 	}
 
 }
@@ -813,6 +812,8 @@ h2 {
 .table {
 		height: 39.2rem;
 		margin: 3rem 5rem 0 5rem;
+		/*width: 90vw;*/
+		width: auto;
 	}
 
 
@@ -828,8 +829,9 @@ h2 {
 		display: grid;
 		grid-gap: 1rem;
 		grid-template-columns: repeat(3, 33.3%);
-	  margin: 3rem 0;
-	  padding: 0 5rem 0;
+	  margin: 3rem 5rem 10rem 5rem;
+	  /*padding: 0 5rem 0;*/
+	  width: 90vw;
 	}
 
 
@@ -843,10 +845,12 @@ h2 {
 	.link-wrap {
 		width: 90%;
 		text-align: center;
+		padding: 0 0 0;
+
 	}
 
 	h2 {
-		margin: 1.25rem 1rem 1rem;
+		margin: 1.25rem 0 1rem;
 	}
 
 	.main-break-social {
@@ -988,9 +992,6 @@ h2 {
 
 @media screen and (max-width: 750px) {
 
-	.table {
-		height: 60.2rem;
-	}
 
 	.tbs-entry {
 		padding: 0.5rem 0 0.25rem;
@@ -1010,8 +1011,13 @@ h2 {
 		margin: 2rem 1rem 1rem;
 	}
 
+	.circle-wrap {
+		display: flex;
+		flex-direction: column;
+	}
+
 	.circular-chart {
-		max-width: 90%;
+		max-width: 59%;
 	}
 
 	.graph-button {
@@ -1046,9 +1052,11 @@ h2 {
 .table {
 		display: grid;
 		grid-template-columns: 1fr;
-		height: 53.2rem;
-		margin: 3rem 0 3rem 3rem;
+		height: 52.2rem;
+		margin: 2rem;
 	}
+
+
 
 	.tbl-entry {
 		align-items: center;
@@ -1096,38 +1104,58 @@ h2 {
 
 
 
+/*New Social*/
+/*Social*/
+
+.social {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 2rem 0 3rem 0;
+	padding: 0 2rem 3rem;
+
+	width: 100vw;
+}
 
 
+.social-button {
+	display: flex;
+	justify-content: center;
+	margin: 0 0 2rem;
+	padding: 0 0 0 0;
+	width: 100%;
+}
 
-
-
-
-
-
-/*If moving new table here, combine it with one below:*/
-
-	.table {
-		height: 52.2rem;
-		margin: 2rem;
+	.link-wrap {
+		margin: 0;
+		padding: 0;
+		width: 100%;
 	}
 
-	.social {
-		margin: 1rem 0 0 0;
-		padding: 0 2rem 3rem;
-		width: 100vw;
-	}
+h2 {
+	margin: 1.25rem 0 1rem;
+}
 
-	.social-button {
-	  justify-content: center;
-	  margin: 0 0 2rem;
-	}
+.main-break-social {
+	display: ;
+	width: 100%;
+}
+
+
+
+/*If moving new table/social here, combine it with one below:*/
+
+
+
+
+
 
 	.fab {
 	  padding: 0 0.75rem 0 0;
 	}
 
 
-	.linkedin {
+	.social-btn-med {
 		margin: 0 0 3rem;
 	}
 
@@ -1138,10 +1166,15 @@ h2 {
 		margin: 2rem 1rem;
 	}
 
-.main-break-contain {
+	.main-break-contain {
 		margin: 0 1rem;
 	}
 	
+	.social {
+		padding: 0 1rem 3rem;
+	}	
+
+
 
 }
 
