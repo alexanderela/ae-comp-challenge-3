@@ -806,24 +806,23 @@ h2 {
 
 /*New Table Insert*/
 
-		.graphs {
-			margin: 0 5rem;		
-		}
+	.graphs {
+		margin: 1rem 5rem;		
+	}
 
 	.main-content-lower {
 	    grid-template-columns: 1fr;
 		}
 
-		.main-break-contain {
-				margin: 0 5rem;
-		}
+	.main-break-contain {
+			margin: 0 5rem;
+	}
 
 	.table {
 			height: 39.2rem;
 			margin: 3rem 5rem 0 5rem;
 			/*width: auto;*/
-		}
-
+	}
 
 	.social {
 		/*justify-content: flex-start;*/
@@ -848,6 +847,10 @@ h2 {
 		width: 90%;
 		text-align: center;
 		padding: 0 0 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
 	}
 
 	h2 {
@@ -976,6 +979,7 @@ h2 {
 			"bars"
 			"applicants";
 		grid-template-columns: 1fr;
+		margin: 2rem 5rem 1.5rem;
 	}
 
 	.circle-wrap {
@@ -1000,7 +1004,7 @@ h2 {
 	}
 
 	.graph-button {
-		margin: 1.75rem auto 1rem;
+		margin: 1rem auto 1.5rem;
 	}
 
 }
@@ -1035,15 +1039,16 @@ h2 {
 	}
 
 	.circular-chart {
-		max-width: 59%;
+		max-width: 45%;
 	}
 
 	.graph-button {
-		margin: 1.75rem auto 1.5rem;
+		margin: 2s.25rem auto 1.75rem;
 	}
 
 	.bar-graph {
-	  width: 90%;		
+	  width: 100%;
+	  margin: 0.75rem 0 0;		
 	}
 
 	.main-break-contain {
@@ -1125,26 +1130,25 @@ h2 {
 
 /*New Social*/
 /*Social*/
+		
+	.social {
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		/*margin: 2rem 0 3rem 0;*/
+		margin: 1.5rem 2rem 0;
+		padding: 0 2rem 3rem;
+		width: 90vw;
+	}
 
-.social {
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	/*margin: 2rem 0 3rem 0;*/
-	margin: 4rem 2rem;
-	padding: 0 2rem 3rem;
-	width: 90vw;
-}
-
-
-.social-button {
-	display: flex;
-	justify-content: center;
-	margin: 0 0 2rem;
-	padding: 0 0 0 0;
-	width: 75%;
-}
+	.social-button {
+		display: flex;
+		justify-content: center;
+		margin: 0 0 1.25rem;
+		padding: 0 0 0 0;
+		width: 75%;
+	}
 
 	.link-wrap {
 		margin: 0;
@@ -1152,14 +1156,14 @@ h2 {
 		width: 75%;
 	}
 
-h2 {
-	margin: 1.25rem 0 1rem;
-}
+	h2 {
+		margin: 1rem 0 0.5rem;
+	}
 
-.main-break-social {
-	display: ;
-	width: 100%;
-}
+	.main-break-social {
+		display: ;
+		width: 100%;
+	}
 
 
 
@@ -1176,7 +1180,7 @@ h2 {
 
 
 	.social-btn-med {
-		margin: 0 0 3rem;
+		margin: 0 0 2.25rem;
 	}
 
 }
