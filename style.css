@@ -470,14 +470,24 @@ h1 {
 
 .table {
 	border-radius: 3px;
-	display: grid;
 	background-color: #FFFFFF;
-	grid-template-columns: 13rem 1fr;
-	grid-template-rows: repeat(9, 1fr);
-	height: 45.2rem;
 	margin: 3rem 0 2rem 3rem;
 	padding: 0;
 }
+
+.new-table-header {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+.table-data {
+	height: 45.2rem;
+	display: grid;
+	grid-template-columns: 13rem 1fr;
+	grid-template-rows: repeat(9, 1fr);
+}
+
+
 
 .table-header {
 	background-color:	#727D93;
