@@ -821,8 +821,7 @@ h2 {
 	.table {
 			height: 39.2rem;
 			margin: 3rem 5rem 0 5rem;
-			/*width: 90vw;*/
-			width: auto;
+			/*width: auto;*/
 		}
 
 
@@ -889,6 +888,14 @@ h2 {
 
 }
 
+
+@media screen and (max-width: 825px) {
+
+	h2 {
+		font-size: 0.85rem;
+	}
+
+}
 
 
 @media screen and (max-width: 800px) {
@@ -998,14 +1005,7 @@ h2 {
 
 }
 
-@media screen and (max-width: 825px) {
 
-
-	h2 {
-		font-size: 0.85rem;
-	}
-
-}
 
 @media screen and (max-width: 750px) {
 
@@ -1072,6 +1072,7 @@ h2 {
 		grid-template-columns: 1fr;
 		height: 52.2rem;
 		margin: 2rem;
+		width: 90vw;		
 	}
 
 
@@ -1126,14 +1127,14 @@ h2 {
 /*Social*/
 
 .social {
+	align-items: center;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	/*margin: 2rem 0 3rem 0;*/
-	margin: 4rem 5rem;
+	margin: 4rem 2rem;
 	padding: 0 2rem 3rem;
-	align-items: center;
-	width: 75%;
+	width: 90vw;
 }
 
 
@@ -1191,6 +1192,7 @@ h2 {
 	
 	.social {
 		padding: 0 1rem 3rem;
+		margin: 4rem 1rem;				
 	}	
 
 
