@@ -478,13 +478,14 @@ h1 {
 .new-table-header {
 	display: grid;
 	grid-template-columns: 1fr;
+	height: 4rem;
 }
 
 .table-data {
 	height: 45.2rem;
 	display: grid;
 	grid-template-columns: 13rem 1fr;
-	grid-template-rows: repeat(9, 1fr);
+	grid-template-rows: repeat(8, 1fr);
 }
 
 
@@ -501,7 +502,7 @@ h1 {
 }
 
 .table-header-left {
-	border-radius: 3px 0 0 0;
+	border-radius: 3px 3px 0 0;
 	padding: 0 0 0 2rem;
 }
 
@@ -516,6 +517,7 @@ h1 {
 	color: #FFFFFF;
 	font-size: 0.85rem;
 	font-weight: 700;
+  margin: 0 0 0 3.5rem;
 	padding: 0.5rem 1rem;
 }
 
@@ -834,6 +836,12 @@ h2 {
 			/*width: auto;*/
 	}
 
+	.table-data {
+		height: 35.2rem;
+	}
+
+
+
 	.social {
 		/*justify-content: flex-start;*/
 		display: grid;
@@ -1085,11 +1093,10 @@ h2 {
 .table {
 		display: grid;
 		grid-template-columns: 1fr;
-		height: 52.2rem;
+		height: 40.2rem;
 		margin: 2rem;
 		width: 90vw;		
 	}
-
 
 
 	.tbl-entry {
@@ -1132,9 +1139,9 @@ h2 {
 	  padding: 0 0 0.25rem 0;
 	}
 
-	.button-table-edit {
+/*	.button-table-edit {
 		padding: 0.25rem 0.75rem;	
-	}
+	}*/
 
 
 
