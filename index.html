@@ -17,7 +17,7 @@
 		<section class="sidebar">
 			<header class="sidebar-profile">
 				<img class="profile-img headshot" src="Images/A_Ela.jpg" alt="user profile image">
-				<p class="profile-name" aria-label="user name">Rudy Booleani <i class="fas fa-caret-down" alt=""></i></p>
+				<p class="profile-name" aria-label="user name">Alexander Ela<i class="fas fa-caret-down" alt=""></i></p>
 			</header>
 			<hr class="sidebar-break">			
 			<ul class="side-nav sidebar">
@@ -93,7 +93,7 @@
 
 		<main class="main-content">
 			<nav class="header-search">
-				<button class="sidebar-show-hide">
+				<button class="sidebar-show-hide search-button">
 					<i class="fas fa-caret-left" alt="" aria-label="show and hide sidebar"></i>
 					<i class="fas fa-bars" alt=""></i>
 				</button>
@@ -101,10 +101,10 @@
 					<i class="fas fa-search" alt=""></i>
 					<input class="search-input" type="search" placeholder="Search for a job, task or resume" aria-label="search">
 				</div>
-				<button class="search-icons search-user" aria-label="add user profile">
+				<button class="search-button search-icons search-user" aria-label="add user profile">
 					<i class="fas fa-user-plus" alt=""></i>
 				</button>		
-				<button class="search-icons search-calendar" aria-label="appointment">
+				<button class="search-button search-icons search-calendar" aria-label="appointment">
 					<i class="fas fa-calendar-plus" alt=""></i>
 				</button>
 				<button class="search-icons right-search-btn search-menu" aria-label="menu">
@@ -112,19 +112,19 @@
 				</button>							
 			</nav>
 
-<!-- Summary Nav -->
+<!-- Header Nav -->
 
-			<section class="summary">
-				<div class="summary-left-contain">
+			<header class="header">
+				<div class="header-left-contain">
 					<h1>Customer Service Representative</h1>
 					<p class="location">
-						<span class="location-text"><i class="fas fa-map-marker-alt paragraph-text-grey" alt="location marker"></i>Denver, CO
+						<span class="location-text"><i class="fas fa-map-marker paragraph-text-grey" alt="location marker"></i>Denver, CO
 							<i class="fas fa-circle circle-small" alt=""></i></span>
 							<span class="preview-post">Preview this Post
 							</span>
 					</p>
 				</div>
-				<div class="summary-right-contain">
+				<div class="header-right-contain">
 					<button class="button-main button-main-text">
 						<i class="fas fa-circle circle-large" alt="" aria-label="position status"></i>OPEN
 					</button>
@@ -138,9 +138,9 @@
 						<i class="far fa-trash-alt" alt=""></i>
 					</button>	
 				</div>
-			</section>
-			<section class="summary-nav-contain">
-				<ul class="summary-nav block-grey">
+			</header>
+			<section class="header-nav-contain">
+				<ul class="header-nav block-grey">
 						<li>SUMMARY</li>
 						<li>APPLICANTS</li>	
 						<li>JOB BOARD</li>
@@ -247,13 +247,17 @@
 
 			<section class="main-content-lower">
 				<article class="table">
-						<section class="tbl-entry table-header table-header-left">JOB DESCRIPTION
-						</section>	
-						<section class="tbl-entry tbl-entry table-header table-header-right">
+
+<!-- Table Header -->					
+
+						<section class="table-header">JOB DESCRIPTION
 							<button class="button-table-edit" aria-label="edit job description">
 								<i class="fas fa-pencil-alt" alt=""></i>EDIT
 							</button>
 						</section>
+
+<!-- Table -->				
+					<section class="table-data">
 						<section class="tbl-hd tbl-entry block-grey">POSITION TITLE
 						</section>
 						<section class="tbl-content tbl-entry p-text-grey">Customer Service Representative
@@ -286,46 +290,51 @@
 						</section>
 						<section class="tbl-content tbl-entry block-grey salary salary-amt">
 						$58,000
+						</section>
 					</section>
 				</article>
 
 <!-- Social -->
 
 				<aside class="social">
-					<button class="social-button facebook" aria-label="facebook share button">
+					<button class="social-button social-btn-dark" aria-label="facebook share button">
 						<i class="fab fa-facebook-f" alt=""></i>
 					Post to Facebook
 					</button>
-					<button class="social-button twitter" aria-label="twitter share button">
+					<button class="social-button social-btn-light" aria-label="twitter share button">
 						<i class="fab fa-twitter" alt=""></i>
 					Tweet this Job
 					</button>
-					<button class="social-button linkedin" aria-label="linkedin share button">
+					<button class="social-button social-btn-med" aria-label="linkedin share button">
 						<i class="fab fa-linkedin" alt=""></i>
 					Post to Linkedin
 					</button>
 
+				<div class="link-wrap">	
 					<h2><i class="fas fa-globe-americas social-header-icons" alt=""></i>Link to this Job</h2>
 					<p class="social-text">Lorem ipsum dolor sit amet, consectetur adipis cing elit. Integer millis neque eget vestibpend.</p>
 					<section class="social-tags-contain">
 						<span class="social-tags" aria-label="html link to this job">http://loremipsum.dolor/sit-amet-consectetur-adipiscing.com</span>
 						<button class="copy-button" aria-label="copy html">Copy</button>
 					</section>
-
+				</div>
 					<hr class="main-break main-break-social">
 
+				<div class="link-wrap">
 					<h2><i class="fas fa-object-group social-header-icons" alt=""></i>Use the Button Widget</h2>
 					<p class="social-text">This widget embeds the buttons for sharing the job for submitting a resume on your website.</p>
 					<section class="social-tags-contain">
 						<span class="social-tags" aria-label="script tag available for button widget">&lt;script type="text/javascript"&gt;...&lt;/script&gt;</span>
 						<button class="copy-button" aria-label="copy script">Copy</button>
 					</section>
-					
+				</div>
 					<hr class="main-break main-break-social">
-
+		<div class="link-wrap">
 					<h2><i class="fas fa-paper-plane social-header-icons" alt=""></i>Upload Resumes by Email</h2>
 					<p class="social-text">You can automatically upload multiple resumes to this job by emailing the address below.</p>
-					<section class="social-tags social-tags-contain upload-resume">parislevey@felineCEO.com</section>
+					<section class="social-tags social-tags-contain upload-resume">parislevey@felineCEO.com
+					</section>
+			</div>		
 				</aside>
 			</section>
 		</main>
