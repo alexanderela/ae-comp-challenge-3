@@ -1,4 +1,5 @@
 /*Universal Layout*/
+
 * {
 	box-sizing: border-box;
 }
@@ -19,6 +20,7 @@ button {
 hr {
 	border: none;
 }
+
 
 /*Sidebar*/
 
@@ -154,12 +156,11 @@ h4 {
 }
 
 
-
 /*Main Content*/
+
 .main-content {
 	background-color: #EAF1F5;
 }
-
 
 
 /*Search Bar*/
@@ -315,7 +316,6 @@ h1 {
 }
 
 
-
 /*Graphs*/
 
 .graph-button {
@@ -339,6 +339,7 @@ h1 {
 .chart {
 	width: 20rem;
 }
+
 
 /*Circle Charts*/
 
@@ -552,7 +553,6 @@ h1 {
 }
 
 
-
 /*Social*/
 
 .social {
@@ -660,7 +660,6 @@ h2 {
 }
 
 
-
 /*Main Content Icons*/
 
 .sidebar-show-hide {
@@ -716,7 +715,6 @@ h2 {
 }
 
 
-
 /*Social Icons*/
 
 .social-header-icons {
@@ -727,8 +725,6 @@ h2 {
 	font-size: 1.25rem;
 	padding: 0 2.75rem 0 2rem;
 }
-
-
 
 
 /*Media Queries*/
@@ -779,10 +775,6 @@ h2 {
 		height: 35.2rem;
 	}
 
-
-/*SOCIAL GRID TEMPLATE AREAS-START*/
-
-
 	.social {
 		display: grid;
 		grid-gap: 0.5rem;
@@ -791,17 +783,14 @@ h2 {
 	  margin: 4rem 5rem;
 	  width: 90vw;
 	  justify-items: center;
-
 	  grid-template-areas:
 		"facebook twitter linkedin"
 		"linkwrap-one linkwrap-two linkwrap-three";
-
 	}
 
 	.social-btn-dark {
 		grid-area: facebook;
 	}
-
 
 	.social-btn-light {
 		grid-area: twitter;		
@@ -822,7 +811,6 @@ h2 {
 	.link-wrap3 {
 		grid-area: linkwrap-three;		
 	}
-
 
 	.social-button {
 		width: 100%;
@@ -1034,7 +1022,6 @@ h2 {
 }
 
 
-
 @media screen and (max-width: 750px) {
 
 	.copy-button {
@@ -1084,8 +1071,6 @@ h2 {
 	.copy-button {
 		font-size: 0.75rem;
 	}
-
-
 
 }
 
@@ -1182,7 +1167,6 @@ h2 {
 	.button-table-edit {
 		margin: 0 2rem 0 0;	
 	}
-
 
 }
 
