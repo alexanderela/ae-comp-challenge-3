@@ -559,7 +559,7 @@ h1 {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;;
-	margin: 3rem 0 3rem 0;
+	margin: 3rem 0 2rem 0;
 	padding: 0 3rem 0;
 	width: 100%;
 }
@@ -640,6 +640,7 @@ h2 {
 
 .upload-resume {
 	width: 100%;
+	margin: 1rem 0 0;
 }
 
 .copy-button {
@@ -785,7 +786,7 @@ h2 {
 	.social {
 		display: grid;
 		grid-gap: 0.5rem;
-		grid-template-columns: repeat(3, 15rem);
+		grid-template-columns: repeat(3, 16rem);
 	  padding: 0;
 	  margin: 4rem 5rem;
 	  width: 90vw;
@@ -872,6 +873,19 @@ h2 {
 	.header-nav {
 		display: flex;
 		justify-content: center;
+	}
+
+	.social {
+		grid-template-columns: repeat(3, 15rem);
+	}
+
+}
+
+
+@media screen and (max-width: 885px) {
+
+	.social {
+		grid-template-columns: repeat(3, 14rem);
 	}
 
 }
@@ -1013,6 +1027,7 @@ h2 {
 	}
 
 	.social {
+		grid-template-columns: repeat(3, 13rem);
 		margin: 4rem auto;
 		width: 90vw;		
 	}
@@ -1026,6 +1041,52 @@ h2 {
 	.copy-button {
 		font-size: 0.65rem;
 	}
+
+	.social {
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		margin: 4.5rem auto 0;
+		padding: 0 2rem 3rem;
+	}
+
+	.social-button {
+		display: flex;
+		justify-content: center;
+		margin: 0 0 1.25rem;
+		padding: 0 0 0 0;
+		width: 75%;
+	}
+
+	.link-wrap {
+		margin: 0;
+		padding: 0;
+		width: 75%;
+	}
+
+	h2 {
+		margin: 1rem 0 0.5rem;
+	}
+
+	.main-break-social {
+		display: ;
+		width: 100%;
+	}
+
+	.fab {
+	  padding: 0 0.75rem 0 0;
+	}
+
+	.social-btn-med {
+		margin: 0 0 2.25rem;
+	}
+
+	.copy-button {
+		font-size: 0.75rem;
+	}
+
+
 
 }
 
@@ -1122,50 +1183,7 @@ h2 {
 	.button-table-edit {
 		margin: 0 2rem 0 0;	
 	}
-		
-	.social {
-		align-items: center;
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-		margin: 1.5rem auto 0;
-		padding: 0 2rem 3rem;
-	}
 
-	.social-button {
-		display: flex;
-		justify-content: center;
-		margin: 0 0 1.25rem;
-		padding: 0 0 0 0;
-		width: 75%;
-	}
-
-	.link-wrap {
-		margin: 0;
-		padding: 0;
-		width: 75%;
-	}
-
-	h2 {
-		margin: 1rem 0 0.5rem;
-	}
-
-	.main-break-social {
-		display: ;
-		width: 100%;
-	}
-
-	.fab {
-	  padding: 0 0.75rem 0 0;
-	}
-
-	.social-btn-med {
-		margin: 0 0 2.25rem;
-	}
-
-	.copy-button {
-		font-size: 0.75rem;
-	}
 
 }
 
