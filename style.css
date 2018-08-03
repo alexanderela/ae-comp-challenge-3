@@ -852,10 +852,9 @@ h2 {
 		padding: 0 0.5rem 0 0;
 	}
 
-
-/*SOCIAL GRID TEMPLATE AREAS-END*/
-
-
+	.upload-resume {
+		margin: 1rem 0 1.5rem;
+	}
 
 }
 
