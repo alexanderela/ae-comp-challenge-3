@@ -476,9 +476,17 @@ h1 {
 }
 
 .new-table-header {
-	display: grid;
-	grid-template-columns: 1fr;
+	display: flex;
+	justify-content: right;
+	align-items: center;
 	height: 4rem;
+	background-color:	#727D93;
+	color: #FFFFFF;
+	font-size: 0.85rem;
+	font-weight: 700;
+	border-radius: 3px 3px 0 0;
+	padding: 0 0 0 2rem;
+	width: 90vw;
 }
 
 .table-data {
@@ -488,26 +496,8 @@ h1 {
 	grid-template-rows: repeat(8, 1fr);
 }
 
-
-
-.table-header {
-	background-color:	#727D93;
-	color: #FFFFFF;
-	font-size: 0.85rem;
-	font-weight: 700;
-}
-
 .fa-pencil-alt {
 	padding: 0 0.35rem 0 0;
-}
-
-.table-header-left {
-	border-radius: 3px 3px 0 0;
-	padding: 0 0 0 2rem;
-}
-
-.table-header-right {
-	border-radius: 0 3px 0 0;
 }
 
 .button-table-edit {
@@ -519,6 +509,7 @@ h1 {
 	font-weight: 700;
   margin: 0 0 0 3.5rem;
 	padding: 0.5rem 1rem;
+	width: 6rem;
 }
 
 .button-table-edit:hover {
@@ -921,12 +912,17 @@ h2 {
 
 @media screen and (max-width: 800px) {
 
+	.main-content {
+		width: 100vw;
+	}
+
 	.header-search {
 		grid-template-areas: 
 		"sidebar new calendar menu"
 		"search search search search";
 		grid-template-columns: repeat(4, 1fr);
 		height: 10rem;
+		width: 100vw;
 	}
 
 	.sidebar-show-hide {
@@ -952,6 +948,7 @@ h2 {
 	.header {
 		align-items: center;
 		flex-direction: column;
+		width: 100vw;
 	}
 
 	.header-left-contain {
@@ -980,6 +977,10 @@ h2 {
 	.button-main-text {
 	  height: 3.5rem;
 	 }
+
+	.header-nav-contain {
+		width: 100vw;		
+	}
 
 	.header-nav {
 		flex-wrap: wrap;
@@ -1025,6 +1026,21 @@ h2 {
 		margin: 1rem auto 1.5rem;
 	}
 
+	.main-content-lower {
+	  width: 100vw;
+	}
+
+	.table {
+		margin: 3rem auto 0;
+		width: 90vw;		
+	}
+
+	.social {
+		margin: 4rem auto;
+		width: 90vw;		
+	}
+
+
 }
 
 
@@ -1043,9 +1059,7 @@ h2 {
 
 @media screen and (max-width: 620px) {
 
-	.main-content {
-		width: 100vw;
-	}
+
 
 	.graphs {
 		margin: 2rem 1rem 1rem;
@@ -1084,54 +1098,53 @@ h2 {
 
 	.main-content-lower {
 		grid-template-columns: 1fr;
-	  width: 100vw;
 	}
 
 	
 /*New Table???*/
 
-.table {
+	.table {
+		height: 45.5rem;
+		margin: 2rem auto;
+	}
+
+	.table-data {
 		display: grid;
 		grid-template-columns: 1fr;
-		height: 40.2rem;
-		margin: 2rem;
-		width: 90vw;		
-	}
+
+}	
 
 
 	.tbl-entry {
 		align-items: center;
 		display: flex;
-		justify-content: center;
-		padding: 0.75rem 0 0.5rem;
+		justify-content: flex-start;
+		padding: 0.25rem 0 0.5rem;
+		margin: 0.25rem 2rem 0 2rem;
 	}
 
 	.tbl-hd {
 		border-bottom: none;	
-		display: block;
-		margin: 0 auto;
-		width: 85%;
+	/*	display: block;*/
+		/*width: 85%;*/
 	}
 
 	.tbl-content {
-		display: block;
-		margin: 0 auto;
-		width: 85%;
+		/*display: block;*/
+		/*width: 88%;*/
 	}
 
 	.table-header {
 		display: flex;
-		justify-content: flex-start;
-	}
-
-	.table-header-left {
+		justify-content: space-between;
 		border-radius: 3px 3px 0 0;
-		padding: 0.25rem 1.5rem;
+		/*padding: 0.25rem 2.7rem;*/
+		padding: 0 0 0 2rem;
+		margin: 0 0 0.5rem 0;
 	}
 
-	.table-header-right {
-		border-radius: 0;
-		padding: 0.5rem 1.5rem;	
+	.job-descrip {
+		padding: 0.5rem 0 0.75rem;
 	}
 
 	.hiring-lead {
@@ -1139,9 +1152,9 @@ h2 {
 	  padding: 0 0 0.25rem 0;
 	}
 
-/*	.button-table-edit {
-		padding: 0.25rem 0.75rem;	
-	}*/
+	.button-table-edit {
+		margin: 0 2rem 0 0;	
+	}
 
 
 
@@ -1154,9 +1167,8 @@ h2 {
 		flex-direction: column;
 		justify-content: space-between;
 		/*margin: 2rem 0 3rem 0;*/
-		margin: 1.5rem 2rem 0;
+		margin: 1.5rem auto 0;
 		padding: 0 2rem 3rem;
-		width: 90vw;
 	}
 
 	.social-button {
@@ -1202,10 +1214,14 @@ h2 {
 
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 534px) {
 	.table {
-		margin: 2rem 1rem;
+		height: 46.5rem;
 	}
+
+}
+
+@media screen and (max-width: 450px) {
 
 	.main-break-contain {
 		margin: 0 1rem;
@@ -1216,24 +1232,64 @@ h2 {
 		margin: 4rem 1rem;				
 	}	
 
+	.table {
+		height: 47.5rem;
+	}
 
 
 }
 
-@media screen and (max-width: 390px) {
+
+@media screen and (max-width: 405px) {
+	.table {
+		height: 48.5rem;
+	}
+}
+
+
+
+@media screen and (max-width: 391px) {
 
 	.table {
-		height: 56.2rem;
+		height: 47.5rem;
+	}
+
+	.table-header {
+		padding: 0 0 0 1rem;
+	}
+
+	.button-table-edit {
+		margin: 0 1rem 0 0;
+	}
+
+	.tbl-entry {
+		margin: 0.25rem 1rem 0 1rem;
+/*		width: 89%;*/
+	}
+
+
+}
+
+@media screen and (max-width: 369px) {
+
+	.table {
+		height: 48.5rem;
 	}
 
 }
 
 
-@media screen and (max-width: 328px) {
+
+@media screen and (max-width: 331px) {
 
 	h1 {
 		font-size: 1.85rem;
 		line-height: 1.35;
 	}
+
+	.table {
+		height: 50rem;
+	}
+
 
 }
