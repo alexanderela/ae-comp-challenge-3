@@ -644,11 +644,14 @@ h2 {
 }
 
 .copy-button {
+  align-items: center;
 	background-color: #68B8BF;
 	border: none;
 	border-radius: 0 3px 3px 0;
 	color: #FFFFFF;
+	display: flex;
 	height: 2.5rem;
+  justify-content: center;
 	width: 20%;
 }
 
@@ -850,6 +853,8 @@ h2 {
 
 	.social-button {
 		width: 90%;
+		justify-content: center;
+		align-items: center;
 	}
 
 	.link-wrap {
@@ -868,10 +873,6 @@ h2 {
 
 	.main-break-social {
 		display: none;
-	}
-
-	.social-button {
-		justify-content: center;
 	}
 
 	.fab {
@@ -931,6 +932,7 @@ h2 {
 
 	.main-search {
 		grid-area: search;
+		border-right: none;
 	}
 
 	.search-user {
@@ -1048,13 +1050,20 @@ h2 {
 @media screen and (max-width: 750px) {
 
 
-	.tbs-entry {
-		padding: 0.5rem 0 0.25rem;
+	.copy-button {
+		font-size: 0.65rem;
 	}
 
 }
 
 
+@media screen and (max-width: 685px) {
+
+	.tbs-entry {
+		padding: 0.5rem 0 0.25rem;
+	}
+
+}
 
 
 @media screen and (max-width: 620px) {
@@ -1212,14 +1221,22 @@ h2 {
 		margin: 0 0 2.25rem;
 	}
 
+	.copy-button {
+		font-size: 0.75rem;
+	}
+
+
 }
 
+
 @media screen and (max-width: 534px) {
+	
 	.table {
 		height: 46.5rem;
 	}
 
 }
+
 
 @media screen and (max-width: 450px) {
 
@@ -1228,14 +1245,13 @@ h2 {
 	}
 	
 	.social {
-		padding: 0 1rem 3rem;
-		margin: 4rem 1rem;				
+		padding: 0 1rem 1rem;
+		margin: 1.5rem 1rem;				
 	}	
 
 	.table {
 		height: 47.5rem;
 	}
-
 
 }
 
@@ -1244,6 +1260,7 @@ h2 {
 	.table {
 		height: 48.5rem;
 	}
+
 }
 
 
@@ -1274,6 +1291,10 @@ h2 {
 
 	.table {
 		height: 48.5rem;
+	}
+
+	.copy-button {
+		font-size: 0.65rem;
 	}
 
 }
