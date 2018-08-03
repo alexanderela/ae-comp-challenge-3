@@ -475,7 +475,7 @@ h1 {
 	padding: 0;
 }
 
-.new-table-header {
+.table-header {
 	display: flex;
 	justify-content: right;
 	align-items: center;
@@ -758,98 +758,36 @@ h2 {
 		padding: 0 0 1rem;
 	}
 
-	/*.table {
-		display: grid;
-		grid-template-columns: 1fr;
-		height: 53.2rem;
-		margin: 3rem 0 3rem 3rem;
-	}
-
-	.tbl-entry {
-		align-items: center;
-		display: flex;
-		justify-content: center;
-		padding: 0.75rem 0 0.5rem;
-	}
-
-	.tbl-hd {
-		border-bottom: none;	
-		display: block;
-		margin: 0 auto;
-		width: 85%;
-	}
-
-	.tbl-content {
-		display: block;
-		margin: 0 auto;
-		width: 85%;
-	}
-
-	.table-header {
-		display: flex;
-		justify-content: flex-start;
-	}
-
-	.table-header-left {
-		border-radius: 3px 3px 0 0;
-		padding: 0.25rem 1.5rem;
-	}
-
-	.table-header-right {
-		border-radius: 0;
-		padding: 0.5rem 1.5rem;	
-	}
-
-	.hiring-lead {
-		display: block;
-	  padding: 0 0 0.25rem 0;
-	}
-
-	.button-table-edit {
-		padding: 0.25rem 0.75rem;	
-	}*/
-
-
-/*New Table Insert*/
-
 	.graphs {
 		margin: 1rem 5rem;		
 	}
 
 	.main-content-lower {
-	    grid-template-columns: 1fr;
-		}
+	  grid-template-columns: 1fr;
+	}
 
 	.main-break-contain {
-			margin: 0 5rem;
+		margin: 0 5rem;
 	}
 
 	.table {
-			height: 39.2rem;
-			margin: 3rem 5rem 0 5rem;
-			/*width: auto;*/
+		height: 39.2rem;
+		margin: 3rem 5rem 0 5rem;
 	}
 
 	.table-data {
 		height: 35.2rem;
 	}
 
-
-
 	.social {
-		/*justify-content: flex-start;*/
 		display: grid;
 		grid-gap: 0.25rem;
 		grid-template-columns: repeat(3, 33.3%);
-	  /*margin: 3rem 5rem 10rem 5rem;*/
 	  padding: 0;
 	  margin: 4rem 5rem;
-	  /*padding: 0 5rem 0;*/
 	  width: 90vw;
-	  /*width: auto;*/
 	  justify-items: center;
 	}
-
 
 	.social-button {
 		width: 90%;
@@ -880,8 +818,6 @@ h2 {
 	}
 
 }
-
-
 
 
 @media screen and (max-width: 930px) {
@@ -1042,13 +978,11 @@ h2 {
 		width: 90vw;		
 	}
 
-
 }
 
 
 
 @media screen and (max-width: 750px) {
-
 
 	.copy-button {
 		font-size: 0.65rem;
@@ -1067,8 +1001,6 @@ h2 {
 
 
 @media screen and (max-width: 620px) {
-
-
 
 	.graphs {
 		margin: 2rem 1rem 1rem;
@@ -1109,9 +1041,6 @@ h2 {
 		grid-template-columns: 1fr;
 	}
 
-	
-/*New Table???*/
-
 	.table {
 		height: 45.5rem;
 		margin: 2rem auto;
@@ -1120,9 +1049,7 @@ h2 {
 	.table-data {
 		display: grid;
 		grid-template-columns: 1fr;
-
-}	
-
+	}	
 
 	.tbl-entry {
 		align-items: center;
@@ -1134,20 +1061,12 @@ h2 {
 
 	.tbl-hd {
 		border-bottom: none;	
-	/*	display: block;*/
-		/*width: 85%;*/
-	}
-
-	.tbl-content {
-		/*display: block;*/
-		/*width: 88%;*/
 	}
 
 	.table-header {
 		display: flex;
 		justify-content: space-between;
 		border-radius: 3px 3px 0 0;
-		/*padding: 0.25rem 2.7rem;*/
 		padding: 0 0 0 2rem;
 		margin: 0 0 0.5rem 0;
 	}
@@ -1164,18 +1083,12 @@ h2 {
 	.button-table-edit {
 		margin: 0 2rem 0 0;	
 	}
-
-
-
-/*New Social*/
-/*Social*/
 		
 	.social {
 		align-items: center;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
-		/*margin: 2rem 0 3rem 0;*/
 		margin: 1.5rem auto 0;
 		padding: 0 2rem 3rem;
 	}
@@ -1203,19 +1116,9 @@ h2 {
 		width: 100%;
 	}
 
-
-
-/*If moving new table/social here, combine it with one below:*/
-
-
-
-
-
-
 	.fab {
 	  padding: 0 0.75rem 0 0;
 	}
-
 
 	.social-btn-med {
 		margin: 0 0 2.25rem;
@@ -1224,7 +1127,6 @@ h2 {
 	.copy-button {
 		font-size: 0.75rem;
 	}
-
 
 }
 
@@ -1264,7 +1166,6 @@ h2 {
 }
 
 
-
 @media screen and (max-width: 391px) {
 
 	.table {
@@ -1281,11 +1182,10 @@ h2 {
 
 	.tbl-entry {
 		margin: 0.25rem 1rem 0 1rem;
-/*		width: 89%;*/
 	}
 
-
 }
+
 
 @media screen and (max-width: 369px) {
 
@@ -1300,7 +1200,6 @@ h2 {
 }
 
 
-
 @media screen and (max-width: 331px) {
 
 	h1 {
@@ -1311,6 +1210,5 @@ h2 {
 	.table {
 		height: 50rem;
 	}
-
 
 }
